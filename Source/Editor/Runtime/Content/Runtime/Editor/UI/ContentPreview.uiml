@@ -1,0 +1,10 @@
+<style>
+    .editor-contentpreview-label {
+        horizontal-alignment: center;
+    }
+</style>
+
+<stack mode="vertical" class="fill">
+    <image class="fill"/>
+    <label text="..." name="name" class="editor-contentpreview-label"/>
+</stack>

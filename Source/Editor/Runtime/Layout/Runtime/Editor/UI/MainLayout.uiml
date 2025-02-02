@@ -1,0 +1,20 @@
+<style>
+    .editor-main {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .editor-menu {
+        horizontal-scaling: fill;
+        desired-size: 0 25;
+    }
+</style>
+
+<stack mode="vertical" class="fill">
+    <image class="editor-menu"/>
+    <dockingmanager class="editor-main" name="docking-manager">
+        <docking merged="true" class="fill" name="level-docker">
+
+        </docking>
+    </dockingmanager>
+</stack>

@@ -1,0 +1,65 @@
+__include("Core.dsf");
+
+// Buckets
+scope Buckets {
+    static int default = 0;
+}
+
+// Resources
+scope Resources {
+    @Resource(Buckets.default)
+    extern Types.Texture2D:float fontsdf;
+}
+
+// Data
+scope Data {
+    struct Camera {
+        float4x4 viewProjection;
+    }
+
+    struct Instance {
+        float4x4 transform;
+        float4 smoothing;
+        float4 color;
+    }
+
+    struct Batch {
+        Instance[512] instances;
+    }
+
+    @Packed(Buckets.default) extern Camera camera;
+    @Packed(Buckets.default) extern Batch batch;
+}
+
+// Input Assembly.
+struct Vertex {
+    @Attribute("vertex", 0) float2 position;
+    @Attribute("vertex", 0) float2 texcoord;
+    @Attribute("vertex", 0) int instance;
+}
+
+// Vertex Interop
+struct VertexInterop {
+    this();
+    @Semantic("position") float4 position;
+    float2 texcoord;
+    int instance;
+}
+
+// Vertex kernel
+@Kernel("vertex")
+VertexInterop vertexKernel(Vertex vertex) {
+    auto instance = Data.batch.instances[vertex.instance];
+
+    auto interop = VertexInterop();
+    interop.position = Data.camera.viewProjection.mul(instance.transform.mul(float4(vertex.position, 0, 1)));
+    interop.texcoord = vertex.texcoord;
+    interop.instance = vertex.instance;
+    return interop;
+}
+
+// Pixel kernel
+@Kernel("pixel")
+float4 pixelKernel(VertexInterop interop) {
+    auto instance = Data.batch.instances[interop.instance];
+}

@@ -1,0 +1,2321 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.23918.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file nvtt.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+    1E5C size
+correct header end
+
+    165 public symbols
+
+     3D42 __IMPORT_DESCRIPTOR_nvtt
+     3F62 __NULL_IMPORT_DESCRIPTOR
+     4096 nvtt_NULL_THUNK_DATA
+     43D0 ??1CompressionOptions@nvtt@@QEAA@XZ
+     43D0 __imp_??1CompressionOptions@nvtt@@QEAA@XZ
+     41EC ??0CompressionOptions@nvtt@@QEAA@XZ
+     41EC __imp_??0CompressionOptions@nvtt@@QEAA@XZ
+     5812 ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+     5812 __imp_?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+     4D9A ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+     4D9A __imp_?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+     56F0 ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+     56F0 __imp_?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+     4BE2 ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+     4BE2 __imp_?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+     5780 ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+     5780 __imp_?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+     4EB6 ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+     4EB6 __imp_?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+     48B6 ?reset@CompressionOptions@nvtt@@QEAAXXZ
+     48B6 __imp_?reset@CompressionOptions@nvtt@@QEAAXXZ
+     426A ??0Compressor@nvtt@@QEAA@XZ
+     426A __imp_??0Compressor@nvtt@@QEAA@XZ
+     46C0 ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+     46C0 __imp_?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+     47FA ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+     47FA __imp_?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+     476C ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+     476C __imp_?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+     45B4 ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+     45B4 __imp_?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+     444E ??1Compressor@nvtt@@QEAA@XZ
+     444E __imp_??1Compressor@nvtt@@QEAA@XZ
+     59CC ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+     59CC __imp_?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+     4FD6 ?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+     4FD6 __imp_?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+     4AB8 ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+     4AB8 __imp_?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+     4F46 ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+     4F46 __imp_?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+     58A2 ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+     58A2 __imp_?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+     5282 ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+     5282 __imp_?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+     51FE ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+     51FE __imp_?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+     4A30 ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+     4A30 __imp_?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+     5170 ?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z
+     5170 __imp_?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z
+     4B48 ?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z
+     4B48 __imp_?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z
+     5540 ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+     5540 __imp_?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+     5932 ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z
+     5932 __imp_?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z
+     5432 ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+     5432 __imp_?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+     4938 ?reset@InputOptions@nvtt@@QEAAXXZ
+     4938 __imp_?reset@InputOptions@nvtt@@QEAAXXZ
+     5056 ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+     5056 __imp_?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+     44C4 ??1InputOptions@nvtt@@QEAA@XZ
+     44C4 __imp_??1InputOptions@nvtt@@QEAA@XZ
+     4C72 ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+     4C72 __imp_?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+     42E0 ??0InputOptions@nvtt@@QEAA@XZ
+     42E0 __imp_??0InputOptions@nvtt@@QEAA@XZ
+     54BC ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+     54BC __imp_?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+     50E4 ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+     50E4 __imp_?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+     53A6 ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+     53A6 __imp_?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+     5310 ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+     5310 __imp_?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+     5A5A ?version@nvtt@@YAIXZ
+     5A5A __imp_?version@nvtt@@YAIXZ
+     4640 ?errorString@nvtt@@YAPEBDW4Error@1@@Z
+     4640 __imp_?errorString@nvtt@@YAPEBDW4Error@1@@Z
+     60AA __imp_nvttSetCompressionOptionsQuality
+     60AA nvttSetCompressionOptionsQuality
+     65E8 __imp_nvttSetInputOptionsMipmapFilter
+     65E8 nvttSetInputOptionsMipmapFilter
+     5FB2 __imp_nvttSetCompressionOptionsFormat
+     5FB2 nvttSetCompressionOptionsFormat
+     693E __imp_nvttSetInputOptionsWrapMode
+     693E nvttSetInputOptionsWrapMode
+     638A __imp_nvttSetInputOptionsGamma
+     638A nvttSetInputOptionsGamma
+     5C86 __imp_nvttDestroyCompressionOptions
+     5C86 nvttDestroyCompressionOptions
+     61A4 __imp_nvttSetInputOptionsAlphaMode
+     61A4 nvttSetInputOptionsAlphaMode
+     6AA4 __imp_nvttVersion
+     6AA4 nvttVersion
+     5B2E __imp_nvttCreateCompressionOptions
+     5B2E nvttCreateCompressionOptions
+     6316 __imp_nvttSetInputOptionsFormat
+     6316 nvttSetInputOptionsFormat
+     5DE2 __imp_nvttErrorString
+     5DE2 nvttErrorString
+     684E __imp_nvttSetInputOptionsRoundMode
+     684E nvttSetInputOptionsRoundMode
+     6570 __imp_nvttSetInputOptionsMipmapData
+     6570 nvttSetInputOptionsMipmapData
+     5E4C __imp_nvttEstimateSize
+     5E4C nvttEstimateSize
+     64F8 __imp_nvttSetInputOptionsMaxExtents
+     64F8 nvttSetInputOptionsMaxExtents
+     5EB6 __imp_nvttResetInputOptionsTextureLayout
+     5EB6 nvttResetInputOptionsTextureLayout
+     5AC8 __imp_nvttCompress
+     5AC8 nvttCompress
+     68C4 __imp_nvttSetInputOptionsTextureLayout
+     68C4 nvttSetInputOptionsTextureLayout
+     6A2A __imp_nvttSetOutputOptionsOutputHeader
+     6A2A nvttSetOutputOptionsOutputHeader
+     621A __imp_nvttSetInputOptionsColorTransform
+     621A nvttSetInputOptionsColorTransform
+     69B4 __imp_nvttSetOutputOptionsFileName
+     69B4 nvttSetOutputOptionsFileName
+     67D0 __imp_nvttSetInputOptionsNormalizeMipmaps
+     67D0 nvttSetInputOptionsNormalizeMipmaps
+     5CFE __imp_nvttDestroyInputOptions
+     5CFE nvttDestroyInputOptions
+     66E0 __imp_nvttSetInputOptionsNormalFilter
+     66E0 nvttSetInputOptionsNormalFilter
+     5BA4 __imp_nvttCreateInputOptions
+     5BA4 nvttCreateInputOptions
+     5D70 __imp_nvttDestroyOutputOptions
+     5D70 nvttDestroyOutputOptions
+     63FC __imp_nvttSetInputOptionsHeightEvaluation
+     63FC nvttSetInputOptionsHeightEvaluation
+     5C14 __imp_nvttCreateOutputOptions
+     5C14 nvttCreateOutputOptions
+     6296 __imp_nvttSetInputOptionsConvertToNormalMap
+     6296 nvttSetInputOptionsConvertToNormalMap
+     6124 __imp_nvttSetCompressionOptionsQuantization
+     6124 nvttSetCompressionOptionsQuantization
+     675A __imp_nvttSetInputOptionsNormalMap
+     675A nvttSetInputOptionsNormalMap
+     602C __imp_nvttSetCompressionOptionsPixelFormat
+     602C nvttSetCompressionOptionsPixelFormat
+     647A __imp_nvttSetInputOptionsKaiserParameters
+     647A nvttSetInputOptionsKaiserParameters
+     5F32 __imp_nvttSetCompressionOptionsColorWeights
+     5F32 nvttSetCompressionOptionsColorWeights
+     6662 __imp_nvttSetInputOptionsMipmapGeneration
+     6662 nvttSetInputOptionsMipmapGeneration
+     4D00 ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+     4D00 __imp_?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+     55CC ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+     55CC __imp_?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+     49B4 ?reset@OutputOptions@nvtt@@QEAAXXZ
+     49B4 __imp_?reset@OutputOptions@nvtt@@QEAAXXZ
+     5668 ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+     5668 __imp_?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+     4E30 ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+     4E30 __imp_?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+     453C ??1OutputOptions@nvtt@@QEAA@XZ
+     453C __imp_??1OutputOptions@nvtt@@QEAA@XZ
+     4358 ??0OutputOptions@nvtt@@QEAA@XZ
+     4358 __imp_??0OutputOptions@nvtt@@QEAA@XZ
+
+Archive member name at 1EA0: /               
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+    1E66 size
+correct header end
+
+    84 offsets
+
+        1     3D42
+        2     3F62
+        3     4096
+        4     43D0
+        5     41EC
+        6     5812
+        7     4D9A
+        8     56F0
+        9     4BE2
+        A     5780
+        B     4EB6
+        C     48B6
+        D     426A
+        E     46C0
+        F     47FA
+       10     476C
+       11     45B4
+       12     444E
+       13     59CC
+       14     4FD6
+       15     4AB8
+       16     4F46
+       17     58A2
+       18     5282
+       19     51FE
+       1A     4A30
+       1B     5170
+       1C     4B48
+       1D     5540
+       1E     5932
+       1F     5432
+       20     4938
+       21     5056
+       22     44C4
+       23     4C72
+       24     42E0
+       25     54BC
+       26     50E4
+       27     53A6
+       28     5310
+       29     5A5A
+       2A     4640
+       2B     60AA
+       2C     65E8
+       2D     5FB2
+       2E     693E
+       2F     638A
+       30     5C86
+       31     61A4
+       32     6AA4
+       33     5B2E
+       34     6316
+       35     5DE2
+       36     684E
+       37     6570
+       38     5E4C
+       39     64F8
+       3A     5EB6
+       3B     5AC8
+       3C     68C4
+       3D     6A2A
+       3E     621A
+       3F     69B4
+       40     67D0
+       41     5CFE
+       42     66E0
+       43     5BA4
+       44     5D70
+       45     63FC
+       46     5C14
+       47     6296
+       48     6124
+       49     675A
+       4A     602C
+       4B     647A
+       4C     5F32
+       4D     6662
+       4E     4D00
+       4F     55CC
+       50     49B4
+       51     5668
+       52     4E30
+       53     453C
+       54     4358
+
+    165 public symbols
+
+        5 ??0CompressionOptions@nvtt@@QEAA@XZ
+        D ??0Compressor@nvtt@@QEAA@XZ
+       24 ??0InputOptions@nvtt@@QEAA@XZ
+       54 ??0OutputOptions@nvtt@@QEAA@XZ
+        4 ??1CompressionOptions@nvtt@@QEAA@XZ
+       12 ??1Compressor@nvtt@@QEAA@XZ
+       22 ??1InputOptions@nvtt@@QEAA@XZ
+       53 ??1OutputOptions@nvtt@@QEAA@XZ
+       11 ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+       2A ?errorString@nvtt@@YAPEBDW4Error@1@@Z
+        E ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+       10 ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+        F ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+        C ?reset@CompressionOptions@nvtt@@QEAAXXZ
+       20 ?reset@InputOptions@nvtt@@QEAAXXZ
+       50 ?reset@OutputOptions@nvtt@@QEAAXXZ
+       1A ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+       15 ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+       1C ?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z
+        9 ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+       23 ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+       4E ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+        7 ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+       52 ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+        B ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+       16 ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+       14 ?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+       21 ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+       26 ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+       1B ?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z
+       19 ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+       18 ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+       28 ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+       27 ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+       1F ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+       25 ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+       1D ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+       4F ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+       51 ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+        8 ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+        A ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+        6 ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+       17 ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+       1E ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z
+       13 ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+       29 ?version@nvtt@@YAIXZ
+        1 __IMPORT_DESCRIPTOR_nvtt
+        2 __NULL_IMPORT_DESCRIPTOR
+        5 __imp_??0CompressionOptions@nvtt@@QEAA@XZ
+        D __imp_??0Compressor@nvtt@@QEAA@XZ
+       24 __imp_??0InputOptions@nvtt@@QEAA@XZ
+       54 __imp_??0OutputOptions@nvtt@@QEAA@XZ
+        4 __imp_??1CompressionOptions@nvtt@@QEAA@XZ
+       12 __imp_??1Compressor@nvtt@@QEAA@XZ
+       22 __imp_??1InputOptions@nvtt@@QEAA@XZ
+       53 __imp_??1OutputOptions@nvtt@@QEAA@XZ
+       11 __imp_?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+       2A __imp_?errorString@nvtt@@YAPEBDW4Error@1@@Z
+        E __imp_?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+       10 __imp_?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+        F __imp_?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+        C __imp_?reset@CompressionOptions@nvtt@@QEAAXXZ
+       20 __imp_?reset@InputOptions@nvtt@@QEAAXXZ
+       50 __imp_?reset@OutputOptions@nvtt@@QEAAXXZ
+       1A __imp_?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+       15 __imp_?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+       1C __imp_?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z
+        9 __imp_?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+       23 __imp_?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+       4E __imp_?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+        7 __imp_?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+       52 __imp_?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+        B __imp_?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+       16 __imp_?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+       14 __imp_?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+       21 __imp_?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+       26 __imp_?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+       1B __imp_?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z
+       19 __imp_?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+       18 __imp_?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+       28 __imp_?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+       27 __imp_?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+       1F __imp_?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+       25 __imp_?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+       1D __imp_?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+       4F __imp_?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+       51 __imp_?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+        8 __imp_?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+        A __imp_?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+        6 __imp_?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+       17 __imp_?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+       1E __imp_?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z
+       13 __imp_?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+       29 __imp_?version@nvtt@@YAIXZ
+       3B __imp_nvttCompress
+       33 __imp_nvttCreateCompressionOptions
+       43 __imp_nvttCreateInputOptions
+       46 __imp_nvttCreateOutputOptions
+       30 __imp_nvttDestroyCompressionOptions
+       41 __imp_nvttDestroyInputOptions
+       44 __imp_nvttDestroyOutputOptions
+       35 __imp_nvttErrorString
+       38 __imp_nvttEstimateSize
+       3A __imp_nvttResetInputOptionsTextureLayout
+       4C __imp_nvttSetCompressionOptionsColorWeights
+       2D __imp_nvttSetCompressionOptionsFormat
+       4A __imp_nvttSetCompressionOptionsPixelFormat
+       2B __imp_nvttSetCompressionOptionsQuality
+       48 __imp_nvttSetCompressionOptionsQuantization
+       31 __imp_nvttSetInputOptionsAlphaMode
+       3E __imp_nvttSetInputOptionsColorTransform
+       47 __imp_nvttSetInputOptionsConvertToNormalMap
+       34 __imp_nvttSetInputOptionsFormat
+       2F __imp_nvttSetInputOptionsGamma
+       45 __imp_nvttSetInputOptionsHeightEvaluation
+       4B __imp_nvttSetInputOptionsKaiserParameters
+       39 __imp_nvttSetInputOptionsMaxExtents
+       37 __imp_nvttSetInputOptionsMipmapData
+       2C __imp_nvttSetInputOptionsMipmapFilter
+       4D __imp_nvttSetInputOptionsMipmapGeneration
+       42 __imp_nvttSetInputOptionsNormalFilter
+       49 __imp_nvttSetInputOptionsNormalMap
+       40 __imp_nvttSetInputOptionsNormalizeMipmaps
+       36 __imp_nvttSetInputOptionsRoundMode
+       3C __imp_nvttSetInputOptionsTextureLayout
+       2E __imp_nvttSetInputOptionsWrapMode
+       3F __imp_nvttSetOutputOptionsFileName
+       3D __imp_nvttSetOutputOptionsOutputHeader
+       32 __imp_nvttVersion
+       3B nvttCompress
+       33 nvttCreateCompressionOptions
+       43 nvttCreateInputOptions
+       46 nvttCreateOutputOptions
+       30 nvttDestroyCompressionOptions
+       41 nvttDestroyInputOptions
+       44 nvttDestroyOutputOptions
+       35 nvttErrorString
+       38 nvttEstimateSize
+       3A nvttResetInputOptionsTextureLayout
+       4C nvttSetCompressionOptionsColorWeights
+       2D nvttSetCompressionOptionsFormat
+       4A nvttSetCompressionOptionsPixelFormat
+       2B nvttSetCompressionOptionsQuality
+       48 nvttSetCompressionOptionsQuantization
+       31 nvttSetInputOptionsAlphaMode
+       3E nvttSetInputOptionsColorTransform
+       47 nvttSetInputOptionsConvertToNormalMap
+       34 nvttSetInputOptionsFormat
+       2F nvttSetInputOptionsGamma
+       45 nvttSetInputOptionsHeightEvaluation
+       4B nvttSetInputOptionsKaiserParameters
+       39 nvttSetInputOptionsMaxExtents
+       37 nvttSetInputOptionsMipmapData
+       2C nvttSetInputOptionsMipmapFilter
+       4D nvttSetInputOptionsMipmapGeneration
+       42 nvttSetInputOptionsNormalFilter
+       49 nvttSetInputOptionsNormalMap
+       40 nvttSetInputOptionsNormalizeMipmaps
+       36 nvttSetInputOptionsRoundMode
+       3C nvttSetInputOptionsTextureLayout
+       2E nvttSetInputOptionsWrapMode
+       3F nvttSetOutputOptionsFileName
+       3D nvttSetOutputOptionsOutputHeader
+       32 nvttVersion
+        3 nvtt_NULL_THUNK_DATA
+
+Archive member name at 3D42: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+     1E3 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        4C05A482 time date stamp Wed Jun  2 01:23:30 2010
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 6E 76 74  .............nvt
+  00000010: 74 2E 64 6C 6C 28 00 13 10 07 00 00 00 D0 00 00  t.dll(.......Ð..
+  00000020: 00 00 00 00 00 08 00 00 00 27 C6 12 4D 69 63 72  .........'Æ.Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  ADDR32NB                   00000000         3  .idata$6
+ 00000000  ADDR32NB                   00000000         4  .idata$4
+ 00000010  ADDR32NB                   00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 6E 76 74 74 2E 64 6C 6C 00 00                    nvtt.dll..
+
+COFF SYMBOL TABLE
+000 007BC627 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_nvtt
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | nvtt_NULL_THUNK_DATA
+
+String Table Size = 0x4C bytes
+
+Archive member name at 3F62: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               2 number of sections
+        4C05A482 time date stamp Wed Jun  2 01:23:30 2010
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 6E 76 74  .............nvt
+  00000010: 74 2E 64 6C 6C 28 00 13 10 07 00 00 00 D0 00 00  t.dll(.......Ð..
+  00000020: 00 00 00 00 00 08 00 00 00 27 C6 12 4D 69 63 72  .........'Æ.Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 007BC627 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 4096: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+     119 size
+correct header end
+
+FILE HEADER VALUES
+            8664 machine (x64)
+               3 number of sections
+        4C05A482 time date stamp Wed Jun  2 01:23:30 2010
+              DB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 6E 76 74  .............nvt
+  00000010: 74 2E 64 6C 6C 28 00 13 10 07 00 00 00 D0 00 00  t.dll(.......Ð..
+  00000020: 00 00 00 00 00 08 00 00 00 27 C6 12 4D 69 63 72  .........'Æ.Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      CB file pointer to raw data (000000CB to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000DA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400040 flags
+         Initialized Data
+         8 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00 00 00 00 00                          ........
+
+COFF SYMBOL TABLE
+000 007BC627 ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | nvtt_NULL_THUNK_DATA
+
+String Table Size = 0x1A bytes
+
+Archive member name at 41EC: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : ??0CompressionOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::CompressionOptions::CompressionOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : ??0CompressionOptions@nvtt@@QEAA@XZ
+
+Archive member name at 426A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000025
+  DLL name     : nvtt.dll
+  Symbol name  : ??0Compressor@nvtt@@QEAA@XZ (public: __cdecl nvtt::Compressor::Compressor(void))
+  Type         : code
+  Name type    : name
+  Hint         : 1
+  Name         : ??0Compressor@nvtt@@QEAA@XZ
+
+Archive member name at 42E0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000027
+  DLL name     : nvtt.dll
+  Symbol name  : ??0InputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::InputOptions::InputOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 2
+  Name         : ??0InputOptions@nvtt@@QEAA@XZ
+
+Archive member name at 4358: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000028
+  DLL name     : nvtt.dll
+  Symbol name  : ??0OutputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::OutputOptions::OutputOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 3
+  Name         : ??0OutputOptions@nvtt@@QEAA@XZ
+
+Archive member name at 43D0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : ??1CompressionOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::CompressionOptions::~CompressionOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : ??1CompressionOptions@nvtt@@QEAA@XZ
+
+Archive member name at 444E: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000025
+  DLL name     : nvtt.dll
+  Symbol name  : ??1Compressor@nvtt@@QEAA@XZ (public: __cdecl nvtt::Compressor::~Compressor(void))
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : ??1Compressor@nvtt@@QEAA@XZ
+
+Archive member name at 44C4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000027
+  DLL name     : nvtt.dll
+  Symbol name  : ??1InputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::InputOptions::~InputOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : ??1InputOptions@nvtt@@QEAA@XZ
+
+Archive member name at 453C: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000028
+  DLL name     : nvtt.dll
+  Symbol name  : ??1OutputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::OutputOptions::~OutputOptions(void))
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : ??1OutputOptions@nvtt@@QEAA@XZ
+
+Archive member name at 45B4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003C
+  DLL name     : nvtt.dll
+  Symbol name  : ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::Compressor::enableCudaAcceleration(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z
+
+Archive member name at 4640: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002F
+  DLL name     : nvtt.dll
+  Symbol name  : ?errorString@nvtt@@YAPEBDW4Error@1@@Z (char const * __cdecl nvtt::errorString(enum nvtt::Error))
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : ?errorString@nvtt@@YAPEBDW4Error@1@@Z
+
+Archive member name at 46C0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      70 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000005C
+  DLL name     : nvtt.dll
+  Symbol name  : ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z (public: int __cdecl nvtt::Compressor::estimateSize(struct nvtt::InputOptions const &,struct nvtt::CompressionOptions const &)const )
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z
+
+Archive member name at 476C: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003E
+  DLL name     : nvtt.dll
+  Symbol name  : ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ (public: bool __cdecl nvtt::Compressor::isCudaAccelerationEnabled(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ
+
+Archive member name at 47FA: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      80 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000006C
+  DLL name     : nvtt.dll
+  Symbol name  : ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z (public: bool __cdecl nvtt::Compressor::process(struct nvtt::InputOptions const &,struct nvtt::CompressionOptions const &,struct nvtt::OutputOptions const &)const )
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z
+
+Archive member name at 48B6: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000031
+  DLL name     : nvtt.dll
+  Symbol name  : ?reset@CompressionOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::CompressionOptions::reset(void))
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : ?reset@CompressionOptions@nvtt@@QEAAXXZ
+
+Archive member name at 4938: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002B
+  DLL name     : nvtt.dll
+  Symbol name  : ?reset@InputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::InputOptions::reset(void))
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : ?reset@InputOptions@nvtt@@QEAAXXZ
+
+Archive member name at 49B4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002C
+  DLL name     : nvtt.dll
+  Symbol name  : ?reset@OutputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::OutputOptions::reset(void))
+  Type         : code
+  Name type    : name
+  Hint         : 15
+  Name         : ?reset@OutputOptions@nvtt@@QEAAXXZ
+
+Archive member name at 4A30: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000038
+  DLL name     : nvtt.dll
+  Symbol name  : ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::InputOptions::resetTextureLayout(void))
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ
+
+Archive member name at 4AB8: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000040
+  DLL name     : nvtt.dll
+  Symbol name  : ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z (public: void __cdecl nvtt::InputOptions::setAlphaMode(enum nvtt::AlphaMode))
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z
+
+Archive member name at 4B48: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      5E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000004A
+  DLL name     : nvtt.dll
+  Symbol name  : ?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z (public: void __cdecl nvtt::InputOptions::setColorTransform(enum nvtt::ColorTransform))
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : ?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z
+
+Archive member name at 4BE2: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003F
+  DLL name     : nvtt.dll
+  Symbol name  : ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::CompressionOptions::setColorWeights(float,float,float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z
+
+Archive member name at 4C72: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003D
+  DLL name     : nvtt.dll
+  Symbol name  : ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setConvertToNormalMap(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+
+Archive member name at 4D00: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      5D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000049
+  DLL name     : nvtt.dll
+  Symbol name  : ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z (public: void __cdecl nvtt::OutputOptions::setErrorHandler(struct nvtt::ErrorHandler *))
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z
+
+Archive member name at 4D9A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      59 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000045
+  DLL name     : nvtt.dll
+  Symbol name  : ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z (public: void __cdecl nvtt::CompressionOptions::setExternalCompressor(char const *))
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z
+
+Archive member name at 4E30: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000036
+  DLL name     : nvtt.dll
+  Symbol name  : ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z (public: void __cdecl nvtt::OutputOptions::setFileName(char const *))
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z
+
+Archive member name at 4EB6: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000040
+  DLL name     : nvtt.dll
+  Symbol name  : ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z (public: void __cdecl nvtt::CompressionOptions::setFormat(enum nvtt::Format))
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z
+
+Archive member name at 4F46: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003F
+  DLL name     : nvtt.dll
+  Symbol name  : ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z (public: void __cdecl nvtt::InputOptions::setFormat(enum nvtt::InputFormat))
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z
+
+Archive member name at 4FD6: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000030
+  DLL name     : nvtt.dll
+  Symbol name  : ?setGamma@InputOptions@nvtt@@QEAAXMM@Z (public: void __cdecl nvtt::InputOptions::setGamma(float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 26
+  Name         : ?setGamma@InputOptions@nvtt@@QEAAXMM@Z
+
+Archive member name at 5056: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003D
+  DLL name     : nvtt.dll
+  Symbol name  : ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::InputOptions::setHeightEvaluation(float,float,float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z
+
+Archive member name at 50E4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003C
+  DLL name     : nvtt.dll
+  Symbol name  : ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z (public: void __cdecl nvtt::InputOptions::setKaiserParameters(float,float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 28
+  Name         : ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z
+
+Archive member name at 5170: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003D
+  DLL name     : nvtt.dll
+  Symbol name  : ?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z (public: void __cdecl nvtt::InputOptions::setLinearTransform(int,float,float,float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : ?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z
+
+Archive member name at 51FE: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000034
+  DLL name     : nvtt.dll
+  Symbol name  : ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z (public: void __cdecl nvtt::InputOptions::setMaxExtents(int))
+  Type         : code
+  Name type    : name
+  Hint         : 30
+  Name         : ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z
+
+Archive member name at 5282: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003D
+  DLL name     : nvtt.dll
+  Symbol name  : ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z (public: bool __cdecl nvtt::InputOptions::setMipmapData(void const *,int,int,int,int,int))
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z
+
+Archive member name at 5310: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      5A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000046
+  DLL name     : nvtt.dll
+  Symbol name  : ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z (public: void __cdecl nvtt::InputOptions::setMipmapFilter(enum nvtt::MipmapFilter))
+  Type         : code
+  Name type    : name
+  Hint         : 32
+  Name         : ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z
+
+Archive member name at 53A6: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003C
+  DLL name     : nvtt.dll
+  Symbol name  : ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z (public: void __cdecl nvtt::InputOptions::setMipmapGeneration(bool,int))
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z
+
+Archive member name at 5432: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000039
+  DLL name     : nvtt.dll
+  Symbol name  : ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::InputOptions::setNormalFilter(float,float,float,float))
+  Type         : code
+  Name type    : name
+  Hint         : 34
+  Name         : ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z
+
+Archive member name at 54BC: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000034
+  DLL name     : nvtt.dll
+  Symbol name  : ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setNormalMap(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 35
+  Name         : ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z
+
+Archive member name at 5540: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003B
+  DLL name     : nvtt.dll
+  Symbol name  : ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setNormalizeMipmaps(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 36
+  Name         : ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z
+
+Archive member name at 55CC: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000004B
+  DLL name     : nvtt.dll
+  Symbol name  : ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z (public: void __cdecl nvtt::OutputOptions::setOutputHandler(struct nvtt::OutputHandler *))
+  Type         : code
+  Name type    : name
+  Hint         : 37
+  Name         : ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z
+
+Archive member name at 5668: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000038
+  DLL name     : nvtt.dll
+  Symbol name  : ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::OutputOptions::setOutputHeader(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 38
+  Name         : ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z
+
+Archive member name at 56F0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003F
+  DLL name     : nvtt.dll
+  Symbol name  : ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z (public: void __cdecl nvtt::CompressionOptions::setPixelFormat(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int))
+  Type         : code
+  Name type    : name
+  Hint         : 39
+  Name         : ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z
+
+Archive member name at 5780: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      56 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000042
+  DLL name     : nvtt.dll
+  Symbol name  : ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z (public: void __cdecl nvtt::CompressionOptions::setQuality(enum nvtt::Quality))
+  Type         : code
+  Name type    : name
+  Hint         : 40
+  Name         : ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z
+
+Archive member name at 5812: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000040
+  DLL name     : nvtt.dll
+  Symbol name  : ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z (public: void __cdecl nvtt::CompressionOptions::setQuantization(bool,bool,bool,int))
+  Type         : code
+  Name type    : name
+  Hint         : 41
+  Name         : ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z
+
+Archive member name at 58A2: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000040
+  DLL name     : nvtt.dll
+  Symbol name  : ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z (public: void __cdecl nvtt::InputOptions::setRoundMode(enum nvtt::RoundMode))
+  Type         : code
+  Name type    : name
+  Hint         : 42
+  Name         : ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z
+
+Archive member name at 5932: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      5D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000049
+  DLL name     : nvtt.dll
+  Symbol name  : ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z (public: void __cdecl nvtt::InputOptions::setTextureLayout(enum nvtt::TextureType,int,int,int))
+  Type         : code
+  Name type    : name
+  Hint         : 43
+  Name         : ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z
+
+Archive member name at 59CC: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000003E
+  DLL name     : nvtt.dll
+  Symbol name  : ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z (public: void __cdecl nvtt::InputOptions::setWrapMode(enum nvtt::WrapMode))
+  Type         : code
+  Name type    : name
+  Hint         : 44
+  Name         : ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z
+
+Archive member name at 5A5A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000001E
+  DLL name     : nvtt.dll
+  Symbol name  : ?version@nvtt@@YAIXZ (unsigned int __cdecl nvtt::version(void))
+  Type         : code
+  Name type    : name
+  Hint         : 45
+  Name         : ?version@nvtt@@YAIXZ
+
+Archive member name at 5AC8: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000016
+  DLL name     : nvtt.dll
+  Symbol name  : nvttCompress
+  Type         : code
+  Name type    : name
+  Hint         : 46
+  Name         : nvttCompress
+
+Archive member name at 5B2E: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000026
+  DLL name     : nvtt.dll
+  Symbol name  : nvttCreateCompressionOptions
+  Type         : code
+  Name type    : name
+  Hint         : 47
+  Name         : nvttCreateCompressionOptions
+
+Archive member name at 5BA4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000020
+  DLL name     : nvtt.dll
+  Symbol name  : nvttCreateInputOptions
+  Type         : code
+  Name type    : name
+  Hint         : 48
+  Name         : nvttCreateInputOptions
+
+Archive member name at 5C14: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000021
+  DLL name     : nvtt.dll
+  Symbol name  : nvttCreateOutputOptions
+  Type         : code
+  Name type    : name
+  Hint         : 49
+  Name         : nvttCreateOutputOptions
+
+Archive member name at 5C86: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000027
+  DLL name     : nvtt.dll
+  Symbol name  : nvttDestroyCompressionOptions
+  Type         : code
+  Name type    : name
+  Hint         : 50
+  Name         : nvttDestroyCompressionOptions
+
+Archive member name at 5CFE: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000021
+  DLL name     : nvtt.dll
+  Symbol name  : nvttDestroyInputOptions
+  Type         : code
+  Name type    : name
+  Hint         : 51
+  Name         : nvttDestroyInputOptions
+
+Archive member name at 5D70: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000022
+  DLL name     : nvtt.dll
+  Symbol name  : nvttDestroyOutputOptions
+  Type         : code
+  Name type    : name
+  Hint         : 52
+  Name         : nvttDestroyOutputOptions
+
+Archive member name at 5DE2: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000019
+  DLL name     : nvtt.dll
+  Symbol name  : nvttErrorString
+  Type         : code
+  Name type    : name
+  Hint         : 53
+  Name         : nvttErrorString
+
+Archive member name at 5E4C: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000001A
+  DLL name     : nvtt.dll
+  Symbol name  : nvttEstimateSize
+  Type         : code
+  Name type    : name
+  Hint         : 54
+  Name         : nvttEstimateSize
+
+Archive member name at 5EB6: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002C
+  DLL name     : nvtt.dll
+  Symbol name  : nvttResetInputOptionsTextureLayout
+  Type         : code
+  Name type    : name
+  Hint         : 55
+  Name         : nvttResetInputOptionsTextureLayout
+
+Archive member name at 5F32: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002F
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetCompressionOptionsColorWeights
+  Type         : code
+  Name type    : name
+  Hint         : 56
+  Name         : nvttSetCompressionOptionsColorWeights
+
+Archive member name at 5FB2: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000029
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetCompressionOptionsFormat
+  Type         : code
+  Name type    : name
+  Hint         : 57
+  Name         : nvttSetCompressionOptionsFormat
+
+Archive member name at 602C: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002E
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetCompressionOptionsPixelFormat
+  Type         : code
+  Name type    : name
+  Hint         : 58
+  Name         : nvttSetCompressionOptionsPixelFormat
+
+Archive member name at 60AA: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002A
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetCompressionOptionsQuality
+  Type         : code
+  Name type    : name
+  Hint         : 59
+  Name         : nvttSetCompressionOptionsQuality
+
+Archive member name at 6124: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002F
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetCompressionOptionsQuantization
+  Type         : code
+  Name type    : name
+  Hint         : 60
+  Name         : nvttSetCompressionOptionsQuantization
+
+Archive member name at 61A4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000026
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsAlphaMode
+  Type         : code
+  Name type    : name
+  Hint         : 61
+  Name         : nvttSetInputOptionsAlphaMode
+
+Archive member name at 621A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002B
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsColorTransform
+  Type         : code
+  Name type    : name
+  Hint         : 62
+  Name         : nvttSetInputOptionsColorTransform
+
+Archive member name at 6296: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002F
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsConvertToNormalMap
+  Type         : code
+  Name type    : name
+  Hint         : 63
+  Name         : nvttSetInputOptionsConvertToNormalMap
+
+Archive member name at 6316: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000023
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsFormat
+  Type         : code
+  Name type    : name
+  Hint         : 64
+  Name         : nvttSetInputOptionsFormat
+
+Archive member name at 638A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000022
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsGamma
+  Type         : code
+  Name type    : name
+  Hint         : 65
+  Name         : nvttSetInputOptionsGamma
+
+Archive member name at 63FC: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsHeightEvaluation
+  Type         : code
+  Name type    : name
+  Hint         : 66
+  Name         : nvttSetInputOptionsHeightEvaluation
+
+Archive member name at 647A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsKaiserParameters
+  Type         : code
+  Name type    : name
+  Hint         : 67
+  Name         : nvttSetInputOptionsKaiserParameters
+
+Archive member name at 64F8: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000027
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsMaxExtents
+  Type         : code
+  Name type    : name
+  Hint         : 68
+  Name         : nvttSetInputOptionsMaxExtents
+
+Archive member name at 6570: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000027
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsMipmapData
+  Type         : code
+  Name type    : name
+  Hint         : 69
+  Name         : nvttSetInputOptionsMipmapData
+
+Archive member name at 65E8: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000029
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsMipmapFilter
+  Type         : code
+  Name type    : name
+  Hint         : 70
+  Name         : nvttSetInputOptionsMipmapFilter
+
+Archive member name at 6662: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsMipmapGeneration
+  Type         : code
+  Name type    : name
+  Hint         : 71
+  Name         : nvttSetInputOptionsMipmapGeneration
+
+Archive member name at 66E0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000029
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsNormalFilter
+  Type         : code
+  Name type    : name
+  Hint         : 72
+  Name         : nvttSetInputOptionsNormalFilter
+
+Archive member name at 675A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000026
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsNormalMap
+  Type         : code
+  Name type    : name
+  Hint         : 73
+  Name         : nvttSetInputOptionsNormalMap
+
+Archive member name at 67D0: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002D
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsNormalizeMipmaps
+  Type         : code
+  Name type    : name
+  Hint         : 74
+  Name         : nvttSetInputOptionsNormalizeMipmaps
+
+Archive member name at 684E: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000026
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsRoundMode
+  Type         : code
+  Name type    : name
+  Hint         : 75
+  Name         : nvttSetInputOptionsRoundMode
+
+Archive member name at 68C4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002A
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsTextureLayout
+  Type         : code
+  Name type    : name
+  Hint         : 76
+  Name         : nvttSetInputOptionsTextureLayout
+
+Archive member name at 693E: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000025
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetInputOptionsWrapMode
+  Type         : code
+  Name type    : name
+  Hint         : 77
+  Name         : nvttSetInputOptionsWrapMode
+
+Archive member name at 69B4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000026
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetOutputOptionsFileName
+  Type         : code
+  Name type    : name
+  Hint         : 78
+  Name         : nvttSetOutputOptionsFileName
+
+Archive member name at 6A2A: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 0000002A
+  DLL name     : nvtt.dll
+  Symbol name  : nvttSetOutputOptionsOutputHeader
+  Type         : code
+  Name type    : name
+  Hint         : 79
+  Name         : nvttSetOutputOptionsOutputHeader
+
+Archive member name at 6AA4: nvtt.dll/       
+4C05A482 time/date Wed Jun  2 01:23:30 2010
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 8664 (x64)
+  TimeDateStamp: 4C05A482 Wed Jun  2 01:23:30 2010
+  SizeOfData   : 00000015
+  DLL name     : nvtt.dll
+  Symbol name  : nvttVersion
+  Type         : code
+  Name type    : name
+  Hint         : 80
+  Name         : nvttVersion
+
+     Exports
+
+       ordinal    name
+
+                  ??0CompressionOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::CompressionOptions::CompressionOptions(void))
+                  ??0Compressor@nvtt@@QEAA@XZ (public: __cdecl nvtt::Compressor::Compressor(void))
+                  ??0InputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::InputOptions::InputOptions(void))
+                  ??0OutputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::OutputOptions::OutputOptions(void))
+                  ??1CompressionOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::CompressionOptions::~CompressionOptions(void))
+                  ??1Compressor@nvtt@@QEAA@XZ (public: __cdecl nvtt::Compressor::~Compressor(void))
+                  ??1InputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::InputOptions::~InputOptions(void))
+                  ??1OutputOptions@nvtt@@QEAA@XZ (public: __cdecl nvtt::OutputOptions::~OutputOptions(void))
+                  ?enableCudaAcceleration@Compressor@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::Compressor::enableCudaAcceleration(bool))
+                  ?errorString@nvtt@@YAPEBDW4Error@1@@Z (char const * __cdecl nvtt::errorString(enum nvtt::Error))
+                  ?estimateSize@Compressor@nvtt@@QEBAHAEBUInputOptions@2@AEBUCompressionOptions@2@@Z (public: int __cdecl nvtt::Compressor::estimateSize(struct nvtt::InputOptions const &,struct nvtt::CompressionOptions const &)const )
+                  ?isCudaAccelerationEnabled@Compressor@nvtt@@QEBA_NXZ (public: bool __cdecl nvtt::Compressor::isCudaAccelerationEnabled(void)const )
+                  ?process@Compressor@nvtt@@QEBA_NAEBUInputOptions@2@AEBUCompressionOptions@2@AEBUOutputOptions@2@@Z (public: bool __cdecl nvtt::Compressor::process(struct nvtt::InputOptions const &,struct nvtt::CompressionOptions const &,struct nvtt::OutputOptions const &)const )
+                  ?reset@CompressionOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::CompressionOptions::reset(void))
+                  ?reset@InputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::InputOptions::reset(void))
+                  ?reset@OutputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::OutputOptions::reset(void))
+                  ?resetTextureLayout@InputOptions@nvtt@@QEAAXXZ (public: void __cdecl nvtt::InputOptions::resetTextureLayout(void))
+                  ?setAlphaMode@InputOptions@nvtt@@QEAAXW4AlphaMode@2@@Z (public: void __cdecl nvtt::InputOptions::setAlphaMode(enum nvtt::AlphaMode))
+                  ?setColorTransform@InputOptions@nvtt@@QEAAXW4ColorTransform@2@@Z (public: void __cdecl nvtt::InputOptions::setColorTransform(enum nvtt::ColorTransform))
+                  ?setColorWeights@CompressionOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::CompressionOptions::setColorWeights(float,float,float,float))
+                  ?setConvertToNormalMap@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setConvertToNormalMap(bool))
+                  ?setErrorHandler@OutputOptions@nvtt@@QEAAXPEAUErrorHandler@2@@Z (public: void __cdecl nvtt::OutputOptions::setErrorHandler(struct nvtt::ErrorHandler *))
+                  ?setExternalCompressor@CompressionOptions@nvtt@@QEAAXPEBD@Z (public: void __cdecl nvtt::CompressionOptions::setExternalCompressor(char const *))
+                  ?setFileName@OutputOptions@nvtt@@QEAAXPEBD@Z (public: void __cdecl nvtt::OutputOptions::setFileName(char const *))
+                  ?setFormat@CompressionOptions@nvtt@@QEAAXW4Format@2@@Z (public: void __cdecl nvtt::CompressionOptions::setFormat(enum nvtt::Format))
+                  ?setFormat@InputOptions@nvtt@@QEAAXW4InputFormat@2@@Z (public: void __cdecl nvtt::InputOptions::setFormat(enum nvtt::InputFormat))
+                  ?setGamma@InputOptions@nvtt@@QEAAXMM@Z (public: void __cdecl nvtt::InputOptions::setGamma(float,float))
+                  ?setHeightEvaluation@InputOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::InputOptions::setHeightEvaluation(float,float,float,float))
+                  ?setKaiserParameters@InputOptions@nvtt@@QEAAXMMM@Z (public: void __cdecl nvtt::InputOptions::setKaiserParameters(float,float,float))
+                  ?setLinearTransform@InputOptions@nvtt@@QEAAXHMMMM@Z (public: void __cdecl nvtt::InputOptions::setLinearTransform(int,float,float,float,float))
+                  ?setMaxExtents@InputOptions@nvtt@@QEAAXH@Z (public: void __cdecl nvtt::InputOptions::setMaxExtents(int))
+                  ?setMipmapData@InputOptions@nvtt@@QEAA_NPEBXHHHHH@Z (public: bool __cdecl nvtt::InputOptions::setMipmapData(void const *,int,int,int,int,int))
+                  ?setMipmapFilter@InputOptions@nvtt@@QEAAXW4MipmapFilter@2@@Z (public: void __cdecl nvtt::InputOptions::setMipmapFilter(enum nvtt::MipmapFilter))
+                  ?setMipmapGeneration@InputOptions@nvtt@@QEAAX_NH@Z (public: void __cdecl nvtt::InputOptions::setMipmapGeneration(bool,int))
+                  ?setNormalFilter@InputOptions@nvtt@@QEAAXMMMM@Z (public: void __cdecl nvtt::InputOptions::setNormalFilter(float,float,float,float))
+                  ?setNormalMap@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setNormalMap(bool))
+                  ?setNormalizeMipmaps@InputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::InputOptions::setNormalizeMipmaps(bool))
+                  ?setOutputHandler@OutputOptions@nvtt@@QEAAXPEAUOutputHandler@2@@Z (public: void __cdecl nvtt::OutputOptions::setOutputHandler(struct nvtt::OutputHandler *))
+                  ?setOutputHeader@OutputOptions@nvtt@@QEAAX_N@Z (public: void __cdecl nvtt::OutputOptions::setOutputHeader(bool))
+                  ?setPixelFormat@CompressionOptions@nvtt@@QEAAXIIIII@Z (public: void __cdecl nvtt::CompressionOptions::setPixelFormat(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int))
+                  ?setQuality@CompressionOptions@nvtt@@QEAAXW4Quality@2@@Z (public: void __cdecl nvtt::CompressionOptions::setQuality(enum nvtt::Quality))
+                  ?setQuantization@CompressionOptions@nvtt@@QEAAX_N00H@Z (public: void __cdecl nvtt::CompressionOptions::setQuantization(bool,bool,bool,int))
+                  ?setRoundMode@InputOptions@nvtt@@QEAAXW4RoundMode@2@@Z (public: void __cdecl nvtt::InputOptions::setRoundMode(enum nvtt::RoundMode))
+                  ?setTextureLayout@InputOptions@nvtt@@QEAAXW4TextureType@2@HHH@Z (public: void __cdecl nvtt::InputOptions::setTextureLayout(enum nvtt::TextureType,int,int,int))
+                  ?setWrapMode@InputOptions@nvtt@@QEAAXW4WrapMode@2@@Z (public: void __cdecl nvtt::InputOptions::setWrapMode(enum nvtt::WrapMode))
+                  ?version@nvtt@@YAIXZ (unsigned int __cdecl nvtt::version(void))
+                  nvttCompress
+                  nvttCreateCompressionOptions
+                  nvttCreateInputOptions
+                  nvttCreateOutputOptions
+                  nvttDestroyCompressionOptions
+                  nvttDestroyInputOptions
+                  nvttDestroyOutputOptions
+                  nvttErrorString
+                  nvttEstimateSize
+                  nvttResetInputOptionsTextureLayout
+                  nvttSetCompressionOptionsColorWeights
+                  nvttSetCompressionOptionsFormat
+                  nvttSetCompressionOptionsPixelFormat
+                  nvttSetCompressionOptionsQuality
+                  nvttSetCompressionOptionsQuantization
+                  nvttSetInputOptionsAlphaMode
+                  nvttSetInputOptionsColorTransform
+                  nvttSetInputOptionsConvertToNormalMap
+                  nvttSetInputOptionsFormat
+                  nvttSetInputOptionsGamma
+                  nvttSetInputOptionsHeightEvaluation
+                  nvttSetInputOptionsKaiserParameters
+                  nvttSetInputOptionsMaxExtents
+                  nvttSetInputOptionsMipmapData
+                  nvttSetInputOptionsMipmapFilter
+                  nvttSetInputOptionsMipmapGeneration
+                  nvttSetInputOptionsNormalFilter
+                  nvttSetInputOptionsNormalMap
+                  nvttSetInputOptionsNormalizeMipmaps
+                  nvttSetInputOptionsRoundMode
+                  nvttSetInputOptionsTextureLayout
+                  nvttSetInputOptionsWrapMode
+                  nvttSetOutputOptionsFileName
+                  nvttSetOutputOptionsOutputHeader
+                  nvttVersion
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           8 .idata$4
+           8 .idata$5
+           A .idata$6

@@ -1,0 +1,29 @@
+<style>
+    .background {
+        margin-geometry: 5 5;
+    }
+
+    .fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .padding {
+        padding: 5 5 5 5;
+    }
+
+    .fill-horizontal {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+    }
+</style>
+
+<div class="fill">
+    <image path="Runtime/WindowMB.png" class="background fill"/>
+    <div class="fill padding">
+        <stack mode="vertical" class="fill">
+            <my-component text="Your mums card" apply="ComponentApplied" class="fill-horizontal"/>
+            <my-component text="Your dads card" apply="ComponentApplied" class="fill-horizontal"/>
+        </stack>
+    </div>
+</div>

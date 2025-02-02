@@ -1,0 +1,31 @@
+<style>
+    .vfill {
+        vertical-scaling: fill;
+    }
+
+    .hfill {
+        horizontal-scaling: fill;
+    }
+
+    .vc {
+        vertical-alignment: center;
+    }
+
+    .hc {
+        horizontal-alignment: center;
+    }
+
+    .fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .content {
+        horizontal-scaling: content;
+        vertical-scaling: content;
+    }
+
+    .right {
+        horizontal-alignment: right;
+    }
+</style>

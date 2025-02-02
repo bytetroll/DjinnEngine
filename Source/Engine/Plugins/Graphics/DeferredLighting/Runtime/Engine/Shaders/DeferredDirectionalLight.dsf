@@ -1,0 +1,89 @@
+__include("Core.dsf");
+
+// Buckets
+scope Buckets {
+    static int default = 0;
+}
+
+// Helpers
+__include("GBufferDecoder.dsf");
+
+// Resources
+scope Resources { }
+
+// Data
+scope Data {
+    class Camera {
+        float4x4 view;
+        float4x4 viewInv;
+        float4x4 projection;
+        float4x4 projectionInv;
+    }
+
+    class Instance {
+        float4x4 shadowViewProjection;
+        float4 attributes;
+        float4 param0;
+        float4 param1;
+
+        /* Directional:
+            attributes.x = 0
+            attributes.y = castsShadows
+            param0.xyz = color
+            param0.w = intensity
+            param1.xyz = direction
+        */
+    }
+
+    class Batch {
+        Instance[512] instances;
+    }
+
+    @Packed(Buckets.default) extern Camera camera;
+    @Packed(Buckets.default) extern Batch batch;
+}
+
+struct Vertex  {
+    @Semantic("vertexid") int vid;
+    @Semantic("instanceid") int iid;
+}
+
+// Vertex Interop
+struct VertexInterop {
+    this();
+    @Semantic("position") float4 position;
+    float2 texcoord;
+    int iid;
+}
+
+// Vertex kernel
+@Kernel("vertex")
+VertexInterop vertexKernel(forward Vertex vertex) {
+    auto interop = VertexInterop();
+    interop.texcoord = float2((vertex.vid << 1) & 2, 1 - (vertex.vid & 2));
+    interop.position = float4(float2(interop.texcoord.x(), 1.0f - interop.texcoord.y()) * float2(2, -2) + float2(-1, 1), 0, 1);
+    interop.iid = vertex.iid;
+    return interop;
+}
+
+// Pixel kernel
+@Kernel("pixel")
+float4 pixelKernel(VertexInterop interop) {
+    auto instance = Data.batch.instances[interop.iid];
+
+    // Decode gbuffer
+    auto raw = GBuffer.Decode(interop.texcoord, Data.camera.viewInv, Data.camera.projectionInv);
+
+	// Final color
+	auto color = float3(); 
+
+	// Shade surface
+	if (!raw.isEmpty) {
+		color += 0.0f;
+		//color += Math.Saturate(Math.Dot(raw.worldNormal, instance.param1.xyz()));
+		color += raw.worldNormal;
+	}
+
+	// ..
+	return float4(color, 1.0f);
+}

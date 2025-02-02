@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Examples/Mini/RockShooter",
+		"source" : "Examples/Mini/RockShooter"
+	}
+}

@@ -1,0 +1,16 @@
+<include path="Style"/>
+
+<stack direction="vertical">
+    <menubar>
+        <group name="Desktop.Menubar"/>
+    </menubar>
+
+    // Main docking area
+    <dock>
+
+    </dock>
+</stack>
+
+<component/>
+<group/>
+<style/>

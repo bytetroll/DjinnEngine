@@ -1,0 +1,11 @@
+# Write to file, checks if contents are different
+function(Djinn_WriteFile PATH CONTENTS)
+    if (EXISTS "${PATH}")
+        file(READ "${PATH}" FileStr)
+        if (NOT "${FileStr}" STREQUAL "${CONTENTS}")
+            file(WRITE "${PATH}" "${CONTENTS}")
+        endif ()
+    else ()
+        file(WRITE "${PATH}" "${CONTENTS}")
+    endif ()
+endfunction()

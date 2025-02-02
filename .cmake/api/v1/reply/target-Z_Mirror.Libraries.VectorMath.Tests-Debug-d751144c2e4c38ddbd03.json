@@ -1,0 +1,105 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"Djinn_Project_ConfigureAll",
+			"Djinn_Finalize",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"Build/Project/ProjectConfigure.cmake",
+			"Build/BuildSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "Libraries.Core.Compiler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Time::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.VectorMath::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Z_Mirror.Libraries.VectorMath.Tests::@6890427a1f51a3e7e1df",
+	"name" : "Z_Mirror.Libraries.VectorMath.Tests",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/Z_Mirror.Libraries.VectorMath.Tests",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/Z_Mirror.Libraries.VectorMath.Tests.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

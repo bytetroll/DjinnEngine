@@ -1,0 +1,4 @@
+This library is the lowest level library and is linked/used by EVERYTHING (including most of Core).
+
+Code that goes in this library must ONLY BE LINKED with the C++ STL and must use plain C++/data types, and or STL
+types and structures.

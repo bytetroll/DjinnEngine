@@ -1,0 +1,20 @@
+// Vertex Interop
+struct VertexInterop {
+    this();
+    __returnof(_vertex) user;
+}
+
+// Vertex kernel
+@Kernel("vertex")
+VertexInterop vertexKernel(__argof(_vertex) vin) {
+    auto interop = VertexInterop();
+    interop.user = _vertex(vin);
+    return interop;
+}
+
+// Pixel kernel
+@Kernel("pixel")
+float4 pixelKernel(VertexInterop interop) {
+    auto raw = _pixel(interop.user).AsRaw();
+    return float4(raw.diffuse, 1.0f);
+}

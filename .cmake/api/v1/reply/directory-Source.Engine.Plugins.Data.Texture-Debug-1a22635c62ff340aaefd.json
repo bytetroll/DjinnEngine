@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Source/Engine/Plugins/Data/Texture",
+		"source" : "Source/Engine/Plugins/Data/Texture"
+	}
+}

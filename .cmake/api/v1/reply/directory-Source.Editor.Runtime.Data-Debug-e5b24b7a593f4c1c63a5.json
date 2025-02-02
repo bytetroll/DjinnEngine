@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Source/Editor/Runtime/Data",
+		"source" : "Source/Editor/Runtime/Data"
+	}
+}

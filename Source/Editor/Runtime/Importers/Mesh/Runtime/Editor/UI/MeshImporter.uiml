@@ -1,0 +1,8 @@
+<style>
+    .editor-importer-mesh {
+    }
+</style>
+
+<stack mode="vertical" class="fill">
+    <label text="Mesh Importer"/>
+</stack>

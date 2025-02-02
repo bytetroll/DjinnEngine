@@ -1,0 +1,874 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"Djinn_Project_ConfigureAll",
+			"Djinn_Finalize",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"Build/Project/ProjectConfigure.cmake",
+			"Build/BuildSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 459,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "Examples.Algorithim::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Application::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Async3.0::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Graphics.CodeGeneration::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Configuration::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Darwin.Sandbox::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Graphics.Scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Graphics.Stress::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Graphics.UI::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Graphics.UIML::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Linux.Video.Scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Linux.Worksite::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Mini.RockShooter::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Nate::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.RandomStuff::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Examples.Tetris::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Personal.Stefan.Boot::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Editor.Application::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "Editor.Content::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Editor.Data.Asset::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Editor.Data.Level::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Editor.Data.Mesh::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Editor.Graphics::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Editor.Hierarchy::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Editor.Importers.Mesh::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "Editor.Layout::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "Editor.Level::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "Editor.Properties::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "Editor.Templates::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "Editor.Viewport::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "Editor.Window::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "Editor.World::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.COM.Test::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "Libraries.Core.Compiler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Containers.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "Libraries.Core.Memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Memory.Test::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Reflection.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Core.Regex::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "Libraries.Core.Time::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "Libraries.GHA::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "Libraries.Host::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "Libraries.Platform.IO::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "Libraries.Platform.Library::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "Libraries.Platform.Threading::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "Libraries.Platform.User::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "Libraries.Platform.Window::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Platform.Window.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "Libraries.Reflection::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Reflection.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "Libraries.VectorMath::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.VectorMath.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "Plugins.Async::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "Plugins.Base.Application::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "Plugins.Base.FileSystem::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Base.FileSystem.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "Plugins.Base.Logging::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Base.Logging.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "Plugins.Base.Memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "Plugins.Base.System::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "Plugins.Base.Window::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "Plugins.Configuration::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "Plugins.Data.Asset::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "Plugins.Data.Font::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "Plugins.Data.Material::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Data.Material.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "Plugins.Data.Mesh::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Data.Mesh.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "Plugins.Data.Shader::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Data.Shader.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "Plugins.Data.Texture::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Data.Texture.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "Plugins.Data.UIML::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Data.UIML.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "Plugins.Data.World::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "Plugins.GHA.PipelineScheduler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "Plugins.GHA.Vulkan::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "Plugins.GHA.VulkanShader::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.GHA.VulkanShader.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "Plugins.Game.Component::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "Plugins.Game.Input::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "Plugins.Game.Scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "Plugins.Game.System::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "Plugins.Game.World::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "Plugins.Graphics.Camera::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "Plugins.Graphics.Common::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "Plugins.Graphics.DeferredLighting::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 57,
+			"id" : "Plugins.Graphics.Graph::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "Plugins.Graphics.Lighting::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "Plugins.Graphics.Output::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "Plugins.Graphics.PostProcessing::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "Plugins.Graphics.Scene::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "Plugins.Graphics.System::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "Plugins.Graphics.UI::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "Plugins.Graphics.World::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "Plugins.Reflection::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "Plugins.Serialization::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Serialization.Tests::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 67,
+			"id" : "Plugins.UI.Controls::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 68,
+			"id" : "Plugins.UI.Core::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 69,
+			"id" : "Plugins.UI.Desktop::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "Plugins.UI.Diagnostic::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 71,
+			"id" : "Plugins.UI.UIML::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Tools.DHG::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "All::@6890427a1f51a3e7e1df",
+	"name" : "All",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/All",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/All.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

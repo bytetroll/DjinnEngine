@@ -1,0 +1,278 @@
+1
+Editor.Properties
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/Properties
+#include
+/usr/lib/llvm-18/lib/clang/18/include
+/usr/local/include
+/usr/include/x86_64-linux-gnu
+/usr/include
+
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/Properties/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/Layout/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/UI/Controls/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/UI/Core/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Compiler/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Containers/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Atomic/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Template/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Memory/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Idiom/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Hash/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Event/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Reflection/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Stream/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Math/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Test/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Time/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Debug/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Util/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Host/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/Library/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/Library/IncludeLinux
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/IO/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/IO/IncludeLinux
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/COM/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/Threading/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/Threading/IncludeLinux
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/User/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Platform/Window/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/VectorMath/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/Window/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/Application/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Async/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Async/IncludeLinux
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/Logging/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Reflection/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Tools/DHG/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Reflection/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Serialization/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/System/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/Memory/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Game/System/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Base/FileSystem/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Game/Component/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Game/World/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/World/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/GHA/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Asset/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/World/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/Graph/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Mesh/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Material/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Shader/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Texture/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/System/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/UI/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/Scene/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/Common/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/Output/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/Font/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Game/Input/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/UI/UIML/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Data/UIML/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/UI/Desktop/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/Level/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/World/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Game/Scene/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Plugins/Graphics/Camera/Include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Editor/Runtime/Properties
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/clang-c/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/minhook/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/assimp/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/ny/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/devil/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/compressonator/include
+/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External/freetype/include
+#preprocessor
+DJINN_API_EDITOR_PROPERTIES
+DJINN_PATH_PIPELINE="/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../Pipeline/Debug"
+DJINN_PATH_EXTERN="/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External"
+DJINN_PATH_BUILD="/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../Build"
+DJINN_EXPORT=__attribute__ ((visibility ("default")))
+DJINN_IMPORT=__attribute__ ((visibility ("default")))
+DJINN_NOEXPORT=__attribute__ ((visibility ("hidden")))
+DJINN_EXPORT_EDITOR_PROPERTIES=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_EDITOR_PROPERTIES=extern "C" __attribute__ ((visibility ("default")))
+DJINN_THROW=throw
+DJINN_PLATFORM_LINUX
+DJINN_COMPILER_CLANG
+DJINN_COMPILER_BACKEND_CLANG
+DJINN_DEBUG=1
+DJINN_32
+DJINN_EXPORT_EDITOR_LAYOUT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_EDITOR_LAYOUT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_UI_CONTROLS=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_UI_CONTROLS=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_UI_CORE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_UI_CORE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_COMPILER=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_COMPILER=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_CONTAINERS=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_CONTAINERS=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_ATOMIC=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_ATOMIC=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_TEMPLATE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_TEMPLATE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_MEMORY=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_MEMORY=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_IDIOMS=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_IDIOMS=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_HASH=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_HASH=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_EVENT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_EVENT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_REFLECTION=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_REFLECTION=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_STREAM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_STREAM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_MATH=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_MATH=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_TEST=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_TEST=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_TIME=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_TIME=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_DEBUG=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_DEBUG=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_CORE_UTIL=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_CORE_UTIL=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_HOST=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_HOST=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM_LIBRARY=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM_LIBRARY=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM_IO=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM_IO=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_COM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_COM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM_THREADING=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM_THREADING=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM_USER=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM_USER=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_PLATFORM_WINDOW=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_PLATFORM_WINDOW=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_VECTORMATH=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_VECTORMATH=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_WINDOW=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_WINDOW=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_APPLICATION=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_APPLICATION=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_ASYNC=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_ASYNC=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_LOGGING=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_LOGGING=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_REFLECTION=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_REFLECTION=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_TOOLS_DHG=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_TOOLS_DHG=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_REFLECTION=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_REFLECTION=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_SERIALIZATION=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_SERIALIZATION=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_SYSTEM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_SYSTEM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_MEMORY=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_MEMORY=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GAME_SYSTEM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GAME_SYSTEM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_BASE_FILESYSTEM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_BASE_FILESYSTEM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GAME_COMPONENT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GAME_COMPONENT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GAME_WORLD=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GAME_WORLD=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_WORLD=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_WORLD=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_LIBRARIES_GHA=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_LIBRARIES_GHA=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_ASSET=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_ASSET=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_WORLD=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_WORLD=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_GRAPH=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_GRAPH=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_MESH=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_MESH=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_MATERIAL=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_MATERIAL=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_SHADER=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_SHADER=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_TEXTURE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_TEXTURE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_SYSTEM=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_SYSTEM=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_UI=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_UI=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_SCENE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_SCENE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_COMMON=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_COMMON=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_OUTPUT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_OUTPUT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_FONT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_FONT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GAME_INPUT=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GAME_INPUT=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_UI_UIML=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_UI_UIML=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_DATA_UIML=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_DATA_UIML=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_UI_DESKTOP=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_UI_DESKTOP=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_EDITOR_LEVEL=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_EDITOR_LEVEL=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_EDITOR_WORLD=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_EDITOR_WORLD=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GAME_SCENE=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GAME_SCENE=extern "C" __attribute__ ((visibility ("default")))
+DJINN_EXPORT_PLUGINS_GRAPHICS_CAMERA=__attribute__ ((visibility ("default")))
+DJINN_C_EXPORT_PLUGINS_GRAPHICS_CAMERA=extern "C" __attribute__ ((visibility ("default")))
+#args
+-std=c++17
+-stdlib=libc++
+-W
+-fPIC
+-msse
+-msse2
+-msse3
+-mmmx
+-g
+-O0
+-DDEBUG
+-D_CRT_SECURE_NO_WARNINGS
+-D__STDC_CONSTANT_MACROS
+-D__STDC_LIMIT_MACROS
+-Werror
+-Wall
+-Wextra
+-Wnull-dereference
+-Wformat=0
+-Wno-unused-function
+-Wno-reorder
+-Wold-style-cast
+-Wno-uninitialized
+-Wno-unused-parameter
+-Wno-unused-variable
+-Wno-unused-const-variable
+-Wno-unused-parameter
+-Wno-null-dereference
+-Wno-missing-braces
+-Wno-unused-private-field
+-Wno-error=cpp
+-Wno-return-type-c-linkage
+-Wno-bad-function-cast
+-Wno-deprecated-copy
+-Wno-unused-value
+-Wno-delete-incomplete
+-Wno-delete-non-abstract-non-virtual-dtor
+-Wno-unused-command-line-argument
+-Wno-unknown-attributes
+#header
+Include/Editor/Elements/Properties.h
+Include/Editor/IPropertiesHost.h
+Include/Editor/PropertiesHost.h
+Include/Editor/PropertiesWorldPackage.h

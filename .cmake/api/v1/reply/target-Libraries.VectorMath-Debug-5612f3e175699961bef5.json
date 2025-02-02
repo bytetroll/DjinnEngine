@@ -1,0 +1,528 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Pipeline/Debug/Libraries.VectorMath.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"Djinn_Project_ConfigureAll",
+			"Djinn_Finalize",
+			"add_dependencies",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_link_libraries",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"Build/Project/ProjectConfigure.cmake",
+			"Build/BuildSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 292,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 395,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 430,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -fcolor-diagnostics"
+				},
+				{
+					"fragment" : "-std=c++17 -stdlib=libc++ -W -fPIC -msse -msse2 -msse3 -mmmx -g -O0 -DDEBUG -D_CRT_SECURE_NO_WARNINGS -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -Werror -Wall -Wextra -Wnull-dereference -Wformat=0 -Wno-unused-function -Wno-reorder -Wold-style-cast -Wno-uninitialized -Wno-unused-parameter -Wno-unused-variable -Wno-unused-const-variable -Wno-unused-parameter -Wno-null-dereference -Wno-missing-braces -Wno-unused-private-field -Wno-error=cpp -Wno-return-type-c-linkage -Wno-bad-function-cast -Wno-deprecated-copy -Wno-unused-value -Wno-delete-incomplete -Wno-delete-non-abstract-non-virtual-dtor -Wno-unused-command-line-argument -Wno-unknown-attributes   -g "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_32"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_API_LIBRARIES_VECTORMATH"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_COMPILER_BACKEND_CLANG"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_COMPILER_CLANG"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_ATOMIC=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_COMPILER=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_CONTAINERS=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_HASH=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_IDIOMS=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_MATH=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_MEMORY=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_TEMPLATE=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_CORE_TIME=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_C_EXPORT_LIBRARIES_VECTORMATH=extern \"C\" __attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_DEBUG=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_ATOMIC=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_COMPILER=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_CONTAINERS=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_HASH=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_IDIOMS=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_MATH=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_MEMORY=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_TEMPLATE=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_CORE_TIME=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_EXPORT_LIBRARIES_VECTORMATH=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_IMPORT=__attribute__ ((visibility (\"default\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_NOEXPORT=__attribute__ ((visibility (\"hidden\")))"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_PATH_BUILD=\"/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../Build\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_PATH_EXTERN=\"/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../External\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_PATH_PIPELINE=\"/home/nathan/Desktop/image/incubator/DjinnEngine/Build/../Pipeline/Debug\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_PLATFORM_LINUX"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "DJINN_THROW=throw"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/VectorMath/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Containers/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Compiler/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Atomic/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Template/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Memory/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Idiom/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Hash/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Time/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Math/Include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/VectorMath"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Compiler"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Memory"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/nathan/Desktop/image/incubator/DjinnEngine/Source/Engine/Libraries/Core/Time"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					10
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				15
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "Libraries.Core.Compiler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Libraries.Core.Memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Libraries.Core.Time::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Libraries.VectorMath::@6890427a1f51a3e7e1df",
+	"name" : "Libraries.VectorMath",
+	"nameOnDisk" : "Libraries.VectorMath.lib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Bounds.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/BoxBounds.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathAVX.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathAVX2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathBE.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathF16C.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathFMA3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathFMA4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathSSE3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Extensions/DirectXMathSSE4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Inc/DirectXCollision.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Inc/DirectXColors.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Inc/DirectXMath.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Inc/DirectXPackedVector.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/Inc/sal.ignore.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/SHMath/DirectXSH.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/SHMath/DirectXSH.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Detail/DirectXMath/XDSP/XDSP.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Matrix4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Quat.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/SphereBounds.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Spline.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector2.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector2I.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector3I.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector4.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Source/Engine/Libraries/VectorMath/Include/Math/Vector4I.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

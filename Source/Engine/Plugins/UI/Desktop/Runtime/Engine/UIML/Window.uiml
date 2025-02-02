@@ -1,0 +1,55 @@
+<style>
+    .window-fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .window-controlbar {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+        desired-size: 0 25;
+        padding: 0 2 0 2;
+    }
+
+    .window-title {
+        horizontal-alignment: left;
+    }
+
+    .window-controls {
+        horizontal-alignment: right;
+    }
+
+    .window-control {
+        vertical-alignment: center;
+    }
+
+    .window-icon {
+        desired-size: 15 15;
+    }
+
+    .window-control-button {
+        desired-size: 20 20;
+    }
+
+    .window-body {
+        padding: 5 5 5 5;
+    }
+</style>
+
+<image class="window-fill"/>
+<stack class="window-fill" mode="vertical">
+    <div class="window-controlbar">
+        <image class="window-fill"/>
+        <stack class="window-icon">
+            <image class="window-icon window-control" />
+            <label class="window-control" text="ass" />
+        </stack>
+        <stack class="window-controls">
+            <button text="-" class="window-control-button window-control" pressed="Minimized"/>
+            <button text="O" class="window-control-button window-control" pressed="Minimized"/>
+            <button text="X" class="window-control-button window-control" pressed="Closed"/>
+        </stack>
+    </div>
+    <div class="window-body">
+    </div>
+</stack>

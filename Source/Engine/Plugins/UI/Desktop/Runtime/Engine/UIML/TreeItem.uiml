@@ -1,0 +1,34 @@
+<style>
+    .treeitem-fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .treeitem-stack {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+    }
+
+    .treeitem-expand {
+        desired-size: 15 15;
+    }
+
+    .treeitem-icon {
+        desired-size: 15 15;
+    }
+
+    .treeitem-name {
+        vertical-alignment: center;
+    }
+</style>
+
+<stack mode="vertical" class="treeitem-stack">
+    <stack mode="horizontal">
+        <button class="treeitem-expand" text="" pressed="OnExpanded"/>
+        <button class="treeitem-icon" text="" pressed="OnClicked"/>
+        <label name="text" text="TreeItem" class="treeitem-name"/>
+    </stack>
+    <stack mode="vertical" name="items">
+        /* Child Items */
+    </stack>
+</stack>

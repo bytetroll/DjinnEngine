@@ -1,0 +1,22 @@
+__include("Material.dsf");
+
+// Vertex data
+class Vertex {
+    this();
+
+    // Layout data
+    Material.VertexData data;
+}
+
+// Vertex shader
+Vertex _vertex(Material.VertexInput input) {
+    auto vertex = Vertex();
+    vertex.data = Material.TransformVertexData(input);
+    return vertex;
+}
+
+// Pixel shader
+Material.Surface _pixel(Vertex vertex) {
+    auto surface = Material.Surface(vertex.data);
+    return surface;
+}

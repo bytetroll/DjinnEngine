@@ -1,0 +1,73 @@
+<style>
+    .highlighted {
+        color: rgb(200, 200, 200);
+    }
+
+    .ctrl {
+        color: rgb(100, 100, 100);
+    }
+
+    .seperator {
+        color: rgb(100, 100, 100);
+    }
+
+    menubar {
+        using .ctrl;
+        vertical-scaling: content;
+        horizontal-scaling: fill;
+        z-offset: 0;
+        margin: 0px 0px;
+    }
+
+    menuitem {
+        using .ctrl;
+        vertical-scaling: fill;
+        horizontal-scaling: content;
+    }
+
+    menuitem image:hover {
+        using .highlighted;
+    }
+
+    menuitem image:pressed {
+        using menuitem image:hover;
+    }
+</style>
+
+<image path="Runtime/Engine/UI/fuckyou.png">"Overlay"</image>
+
+<component name="menubar">
+</component>
+
+<component name="menuitem">
+</component>
+
+<group name="editors">
+
+</group>
+
+<none>
+    <button/>
+</none>
+
+<group name="editors"/>
+
+<style>
+    "Editor.Menubar" {
+        vertical-alignment: top;
+    }
+</style>
+
+<menubar name="Editor.Menubar">
+    <menuitem>
+        <header>"File"</header>
+        <options>
+            <menuitem>"Close"</menuitem>
+            <menuitem>"Open"</menuitem>
+            <menuitem>"Save"</menuitem>
+            <menuitem>"Save as"</menuitem>
+            <seperator/>
+            <menuitem>"Exit"</menuitem>
+        </options>
+    </menuitem>
+</menubar>

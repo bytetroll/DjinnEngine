@@ -1,0 +1,11 @@
+LICENSE
+Some arrogant license which essentially states:
+    * Source code copies or devriations of Djinn Engine may not be shared
+      under any circumstance
+    * May be used for commercial work, and may only share engine binaries
+/LICENSE
+
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==//
+//=-=-=-=-=-=-=-= Third Party Licenses =-=-=-=-=-=-=-=-=//
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==//
+

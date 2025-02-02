@@ -1,0 +1,17 @@
+*** Moved supported compiler from GCC to Clang on 1/14/2021
+*** Current Clang version is 11
+
+
+
+
+ - CMake configuration throws errors regarding 32-bit not beingsupported.
+
+        Caused by improper CMake target configuration in CLion.  Go into settings, CMake
+        and change the active target to debug64/release64.
+        
+- CMake is not using Clang as the active compiler
+
+        Caused by improper CMake target/toolchain configuration.  Go into settings, toolchains
+        and setup a Clang environment; ensure it is configured as default.  Also ensure that libc++
+        is installed or Clang will fallback to using libgcc which has issues with the newest version
+        of Clang.

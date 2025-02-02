@@ -1,0 +1,187 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"Djinn_Project_ConfigureAll",
+			"Djinn_Finalize",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"Build/Project/ProjectConfigure.cmake",
+			"Build/BuildSystem.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 384,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "Libraries.Core.Compiler::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "Libraries.Core.Memory::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "Libraries.Core.Time::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Host::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "Libraries.Platform.IO::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "Libraries.Platform.Library::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "Libraries.Platform.Threading::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "Libraries.Platform.User::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "Libraries.Platform.Window::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.Reflection::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Libraries.VectorMath::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Async::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Base.FileSystem::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Plugins.Base.Logging::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Tools.DHG::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Z_Mirror.Plugins.Base.FileSystem.Tests::@6890427a1f51a3e7e1df",
+	"name" : "Z_Mirror.Plugins.Base.FileSystem.Tests",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/Z_Mirror.Plugins.Base.FileSystem.Tests",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "CMakeFiles/Z_Mirror.Plugins.Base.FileSystem.Tests.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,583 @@
+/*  Kernel Annotation
+    Describes a kernel entry point
+        Fx. @Kernel("vertex") VertexInterop vertexKernel(Vertex vertex)
+*/
+
+static class Kernel {
+    this(string stage) {
+        this.stage = stage;
+        if (!(this.stage matches "vertex") &&
+            !(this.stage matches "pixel") &&
+            !(this.stage matches "geometry") &&
+            !(this.stage matches "hull") &&
+            !(this.stage matches "domain") &&
+            !(this.stage matches "compute")) {
+            error("Invalid kernel stage '" + this.stage + "'");
+        }
+    }
+    string stage;
+}
+
+/*  Semantic Annotation
+    Designates given declaration as a semantic value
+        Fx. @Semantic("position") float4 position;
+*/
+static class Semantic {
+    this(string name) {
+        this.name = name;
+    }
+    string name;
+}
+
+/*  Resource Annotation
+    Designates given declaration as a resource value
+        Fx. @Resource(0) Texture2D:float4 diffuse;
+*/
+static class Resource {
+    this(int bucket) {
+        this.bucket = bucket;
+        this.id = "";
+    }
+    this(int bucket, string id) {
+        this.bucket = bucket;
+        this.id = id;
+    }
+    int bucket;
+    string id;
+}
+
+/*  Packed Annotation
+    Designates given declaration as a packed value
+        Fx. @Packed(0) ClassType instance;
+*/
+static class Packed {
+    this(int bucket) {
+        this.bucket = bucket;
+    }
+    int bucket;
+}
+
+/*  Dynamic Annotation
+    Designates given declaration as a dynamic value
+        Fx. @Dynamic float scale;
+*/
+static class Dynamic {
+    this();
+}
+
+/*  Attribute Annotation
+    Designates given declaration as a vertex attribute value
+        Fx. @Attribute("vertex", 0) float3 normal;
+*/
+static class Attribute {
+    this(string name, int offset) {
+        this.name = name;
+        this.offset = offset;
+    }
+    string name;
+    int offset;
+}
+
+static string ComToString(int com) {
+    match com
+        0 return "x",
+        1 return "y",
+        2 return "z",
+        3 return "w"
+}
+
+/*  Vector generic
+    Basic functionality for vector types
+*/
+auto(int N, type T) class Vector {
+    // Array type
+    public type(T[N]) ArrayType;
+
+    // Builtin type
+    private type(__dsf_vector(T[N])) _VectorType;
+
+    // Zero initializer
+    public this() {
+        vector = __dsf_vector_zero(_VectorType);
+    }
+
+    // Construct from each component
+    public this(T[N]... value) {
+        vector = __dsf_vector_set(value);
+    }
+
+    // Construct from other
+    public this(forward Vector:(N, T) other) {
+        vector = other.vector;
+    }
+
+    static if (N == 3) mixin {
+        public this(T _x, forward Vector:(2, T) _yz) {
+            vector = __dsf_vector_set(_x, _yz.vector);
+        }
+
+        public this(forward Vector:(2, T) _xy, T _z) {
+            vector = __dsf_vector_set(_xy.vector, _z);
+        }
+    }
+
+    static if (N == 4) mixin {
+        public this(T _x, T _y, forward Vector:(2, T) _zw) {
+            vector = __dsf_vector_set(_x, _y, _zw.vector);
+        }
+
+        public this(forward Vector:(2, T) _xy, T _z, T _w) {
+            vector = __dsf_vector_set(_xy.vector, _z, _w);
+        }
+
+        public this(forward Vector:(2, T) _xy, forward Vector:(2, T) _zw) {
+            vector = __dsf_vector_set(_xy.vector, _zw.vector);
+        }
+
+        public this(T _x, forward Vector:(2, T) _yz, T _w) {
+            vector = __dsf_vector_set(_x, _yz.vector, _w);
+        }
+
+        public this(forward Vector:(3, T) _xyz, T _w) {
+            vector = __dsf_vector_set(_xyz.vector, _w);
+        }
+
+        public this(T _x, forward Vector:(3, T) _yzw) {
+            vector = __dsf_vector_set(_x, _yzw.vector);
+        }
+    }
+
+    // Addition operator
+    public Vector operator+(forward Vector other) {
+        return Vector(__dsf_vector_add(vector, other.vector));
+    }
+
+    // Addition operator
+    public Vector operator+(forward float other) {
+        return Vector(__dsf_vector_add(vector, other));
+    }
+
+    // Subtraction operator
+    public Vector operator-(forward Vector other) {
+        return Vector(__dsf_vector_sub(vector, other.vector));
+    }
+
+    // Subtraction operator
+    public Vector operator-(forward float other) {
+        return Vector(__dsf_vector_sub(vector, other));
+    }
+
+    // Division operator
+    public Vector operator/(forward Vector other) {
+        return Vector(__dsf_vector_div(vector, other.vector));
+    }
+
+    // Division operator
+    public Vector operator/(forward float other) {
+        return Vector(__dsf_vector_div(vector, other));
+    }
+
+    // Multiplication operator
+    public Vector operator*(forward Vector other) {
+        return Vector(__dsf_vector_mul(vector, other.vector));
+    }
+
+    // Multiplication operator
+    public Vector operator*(forward float other) {
+        return Vector(__dsf_vector_mul(vector, other));
+    }
+
+    // Addition operator
+    public void operator+=(forward Vector other) {
+		vector = __dsf_vector_add(vector, other.vector);
+    }
+
+    // Addition operator
+    public void operator+=(forward float other) {
+		vector = __dsf_vector_add(vector, other);
+    }
+
+    // Subtraction operator
+    public void operator-=(forward Vector other) {
+		vector = __dsf_vector_sub(vector, other.vector);
+    }
+
+    // Subtraction operator
+    public void operator-=(forward float other) {
+		vector = __dsf_vector_sub(vector, other);
+    }
+
+    // Division operator
+    public void operator/=(forward Vector other) {
+		vector = __dsf_vector_div(vector, other.vector);
+    }
+
+    // Division operator
+    public void operator/=(forward float other) {
+		vector = __dsf_vector_div(vector, other);
+    }
+
+    // Multiplication operator
+    public void operator*=(forward Vector other) {
+		vector = __dsf_vector_mul(vector, other.vector);
+    }
+
+    // Multiplication operator
+    public void operator*=(forward float other) {
+		vector = __dsf_vector_mul(vector, other);
+    }
+
+    public float Length() {
+        return __dsf_vector_length(vector);
+    }
+
+    public float Length2() {
+        return __dsf_vector_length2(vector);
+    }
+
+    public float Sum() {
+        return __dsf_vector_sum(vector);
+    }
+
+    // Construct from builtin type
+    public this(forward _VectorType value) {
+        this.vector = value;
+    }
+
+    // Wrapped value
+    _VectorType vector;
+
+    // Generate swizzling
+    static foreach(int _x in [0, 1, 2, 3]) {
+        if (_x < N) mixin {
+            mixin("public T " + ComToString(_x) + "() { return __dsf_vector_swizzle(vector, " + _x.ToString() + "); }");
+        }
+        foreach(int _y in [0, 1, 2, 3]) {
+            if (_x < N && _y < N) mixin {
+                mixin("public Vector:(2, T) " + ComToString(_x) + ComToString(_y) + "() { return Vector:(2, T)(__dsf_vector_swizzle(vector, " + _x.ToString() + ", " + _y.ToString() + ")); }");
+            }
+            foreach(int _z in [0, 1, 2, 3]) {
+                if (_x < N && _y < N && _z < N) mixin {
+                    mixin("public Vector:(3, T) " + ComToString(_x) + ComToString(_y) + ComToString(_z) + "() { return Vector:(3, T)(__dsf_vector_swizzle(vector, " + _x.ToString() + ", " + _y.ToString() + ", " + _z.ToString() + ")); }");
+                }
+                foreach(int _w in [0, 1, 2, 3]) {
+                    if (_x < N && _y < N && _z < N && _w < N) mixin {
+                        mixin("public Vector:(4, T) " + ComToString(_x) + ComToString(_y) + ComToString(_z) + ComToString(_w) + "() { return Vector:(4, T)(__dsf_vector_swizzle(vector, " + _x.ToString() + ", " + _y.ToString() + ", " + _z.ToString() + ", " + _w.ToString() + ")); }");
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Perform array permutation
+auto(type T) static T[2][] permut(T[] xs, T[] ys) {
+    T[2][] values = [];
+    foreach (T x in xs) foreach (T y in ys) {
+        values += [x, y];
+    }
+    return values;
+}
+
+// Allowed components
+static int[] allowedComponents = [2, 3, 4];
+
+// Vector types
+static foreach(int i in allowedComponents) mixin {
+    type(Vector:(i, float)) mixin(static "float" + i.ToString());
+    type(Vector:(i, int)) mixin(static "int" + i.ToString());
+    type(Vector:(i, uint)) mixin(static "uint" + i.ToString());
+}
+
+auto(type T, int X, int Y) class Matrix {
+    // Builtin type
+    private type(__dsf_matrix(T[X][Y])) _MatrixType;
+
+    // Zero initializer
+    public this() {
+        matrix = __dsf_matrix_zero(_MatrixType);
+    }
+
+    // Construct from each component
+    public this(T[X*Y]... value) {
+        matrix = __dsf_matrix_set(_MatrixType, value);
+    }
+
+    static if (X == 4 && Y == 4) mixin {
+        public this(forward Vector:(4, T) x, forward Vector:(4, T) y, forward Vector:(4, T) z, forward Vector:(4, T) w) {
+            matrix = __dsf_matrix_set(_MatrixType, x.vector, y.vector, z.vector, w.vector);
+        }
+    }
+
+    // Multiplication operator
+    public Matrix operator*(forward Matrix other) {
+        return Matrix(__dsf_matrix_mul(matrix, other.matrix));
+    }
+
+    // Vector transformation operator
+    public Vector:(X, T) operator*(forward Vector:(X, T) other) {
+        return Vector:(X, T)(__dsf_matrix_transform(matrix, other.vector));
+    }
+
+    // Vector transformation operator
+    public Vector:(X, T) mul(forward Vector:(X, T) other) {
+        return Vector:(X, T)(__dsf_matrix_transform(matrix, other.vector));
+    }
+
+    // Construct from builtin type
+    public this(forward _MatrixType value) {
+        this.matrix = value;
+    }
+
+    // Wrapped value
+    _MatrixType matrix;
+}
+
+// Matrix types
+static foreach([x, y] in {
+    int[2][] values = [];
+    foreach (int x in allowedComponents) foreach (int y in allowedComponents) {
+        values += [x, y];
+    }
+    return values;
+}) mixin {
+    type(Matrix:(float, x, y)) mixin(static "float" + x.ToString() + "x" + y.ToString());
+    type(Matrix:(int, x, y)) mixin(static "int" + x.ToString() + "x" + y.ToString());
+    type(Matrix:(uint, x, y)) mixin(static "uint" + x.ToString() + "x" + y.ToString());
+}
+
+/*  Texture generic
+    Basic functionality for texture types
+*/
+auto(string T, type((type DataType)[int DataDim]) _, int Dim) class Texture {
+    // Backend type
+    public type(__dsf_texture(T, __dsf_vector(DataType[DataDim]), Dim)) _TextureType;
+
+    // Texel data type
+    static if (DataDim == 1) mixin {
+        public type(DataType) TexelType;
+    } else mixin {
+        public type(Vector:(DataDim, DataType)) TexelType;
+    }
+
+    // Gradient lookup coordinate type
+    public type(Vector:(Dim, float)) GradientCoordType;
+
+    // Texel lookup coordinate type
+    public type(Vector:(Dim, int)) TexelCoordType;
+
+    // Perform a gradient sample
+    public TexelType Sample(forward GradientCoordType coord) {
+        static if (DataDim == 1) mixin {
+            return __dsf_texture_samplegradient(texture, coord.vector);
+        } else mixin {
+            return TexelType(__dsf_texture_samplegradient(texture, coord.vector));
+        }
+    }
+
+    // Perform a texel sample
+    public TexelType Sample(forward TexelCoordType coord) {
+        static if (DataDim == 1) mixin {
+            return __dsf_texture_sampletexel(texture, coord.vector);
+        } else mixin {
+            return TexelType(__dsf_texture_sampletexel(texture, coord.vector));
+        }
+    }
+
+    // Backend texture type
+    public _TextureType texture;
+}
+
+/*  Texture map generic
+    Basic functionality for texture map (Not to be confused with array) types
+*/
+auto(string T, type((type DataType)[int DataDim]) _, int Dim, int Count) class TextureMap {
+    // Backend type
+    public type(__dsf_texture_map(T, __dsf_vector(DataType[DataDim]), Dim, Count)) _TextureType;
+
+    // Texel data type
+    static if (DataDim == 1) mixin {
+        public type(DataType) TexelType;
+    } else mixin {
+        public type(Vector:(DataDim, DataType)) TexelType;
+    }
+
+    // Gradient lookup coordinate type
+    public type(Vector:(Dim, float)) GradientCoordType;
+
+    // Texel lookup coordinate type
+    public type(Vector:(Dim, int)) TexelCoordType;
+
+    // Perform a gradient sample
+    public TexelType Sample(forward GradientCoordType coord, int index) {
+        static if (DataDim == 1) mixin {
+            return __dsf_texture_map_samplegradient(texture, coord.vector, index);
+        } else mixin {
+            return TexelType(__dsf_texture_map_samplegradient(texture, coord.vector, index));
+        }
+    }
+
+    // Perform a texel sample
+    public TexelType Sample(forward TexelCoordType coord, int index) {
+        static if (DataDim == 1) mixin {
+            return __dsf_texture_map_sampletexel(texture, coord.vector, index);
+        } else mixin {
+            return TexelType(__dsf_texture_map_sampletexel(texture, coord.vector, index));
+        }
+    }
+
+    // Backend texture type
+    public _TextureType texture;
+}
+
+/*  FP Math
+*/
+scope Math {
+    float Smoothstep(float a, float b, float t) {
+        return __dsf_smoothstep(a, b, t);
+    }
+
+    float Clamp(float v, float a, float b) {
+        return __dsf_clamp(v, a, b);
+    }
+
+    Vector:(2, float) Clamp(Vector:(2, float) v, Vector:(2, float) a, Vector:(2, float) b) {
+        return Vector:(2, float)(__dsf_clamp(v.vector, a.vector, b.vector));
+    }
+
+    Vector:(3, float) Clamp(Vector:(3, float) v, Vector:(3, float) a, Vector:(3, float) b) {
+        return Vector:(3, float)(__dsf_clamp(v.vector, a.vector, b.vector));
+    }
+
+    float Saturate(float v) {
+        return __dsf_clamp(v, 0.0f, 1.0f);
+    }
+
+    Vector:(2, float) Saturate(Vector:(2, float) v) {
+        return Vector:(2, float)(__dsf_clamp(v.vector, __dsf_vector_set(0.0f, 0.0f), __dsf_vector_set(1.0f, 1.0f)));
+    }
+
+    Vector:(3, float) Saturate(Vector:(3, float) v) {
+        return Vector:(3, float)(__dsf_clamp(v.vector, __dsf_vector_set(0.0f, 0.0f, 0.0f), __dsf_vector_set(1.0f, 1.0f, 1.0f)));
+    }
+
+    float Abs(float a) {
+        return __dsf_abs(a);
+    }
+
+    Vector:(2, float) Abs(Vector:(2, float) a) {
+        return Vector:(2, float)(__dsf_abs(a.vector));
+    }
+
+    Vector:(3, float) Abs(Vector:(3, float) a) {
+        return Vector:(3, float)(__dsf_abs(a.vector));
+    }
+
+    float Sqrt(float a) {
+        return __dsf_sqrt(a);
+    }
+
+    float Max(float a, float b) {
+        return __dsf_max(a, b);
+    }
+
+    float Square(float x) {
+        return x * x;
+    }
+
+    Vector:(2, float) Max(forward Vector:(2, float) a, forward Vector:(2, float) b) {
+        return Vector:(2, float)(__dsf_max(a.vector, b.vector));
+    }
+
+    Vector:(3, float) Max(forward Vector:(3, float) a, forward Vector:(3, float) b) {
+        return Vector:(3, float)(__dsf_max(a.vector, b.vector));
+    }
+
+    Vector:(4, float) Max(forward Vector:(4, float) a, forward Vector:(4, float) b) {
+        return Vector:(4, float)(__dsf_max(a.vector, b.vector));
+    }
+
+    float Min(float a, float b) {
+        return __dsf_min(a, b);
+    }
+
+    Vector:(2, float) Min(forward Vector:(2, float) a, forward Vector:(2, float) b) {
+        return Vector:(2, float)(__dsf_min(a.vector, b.vector));
+    }
+
+    Vector:(3, float) Min(forward Vector:(3, float) a, forward Vector:(3, float) b) {
+        return Vector:(3, float)(__dsf_min(a.vector, b.vector));
+    }
+
+    Vector:(4, float) Min(forward Vector:(4, float) a, forward Vector:(4, float) b) {
+        return Vector:(4, float)(__dsf_min(a.vector, b.vector));
+    }
+
+    float Dot(forward Vector:(2, float) a, forward Vector:(2, float) b) {
+        return __dsf_vector_dot(a.vector, b.vector);
+    }
+
+    float Dot(forward Vector:(3, float) a, forward Vector:(3, float) b) {
+        return __dsf_vector_dot(a.vector, b.vector);
+    }
+
+    float Distance(forward Vector:(2, float) a, forward Vector:(2, float) b) {
+        return __dsf_vector_distance(a.vector, b.vector);
+    }
+
+    float Distance(forward Vector:(3, float) a, forward Vector:(3, float) b) {
+        return __dsf_vector_distance(a.vector, b.vector);
+    }
+
+    Vector:(3, float) Cross(forward Vector:(3, float) a, forward Vector:(3, float) b) {
+        return Vector:(3, float)(__dsf_vector_cross(a.vector, b.vector));
+    }
+
+    float Lerp(float a, float b, float t) {
+        return __dsf_lerp(a, b, t);
+    }
+
+    Vector:(2, float) Lerp(forward Vector:(2, float) a, forward Vector:(2, float) b, float t) {
+        return Vector:(2, float)(__dsf_lerp(a.vector, b.vector, t));
+    }
+
+    Vector:(3, float) Lerp(forward Vector:(3, float) a, forward Vector:(3, float) b, float t) {
+        return Vector:(3, float)(__dsf_lerp(a.vector, b.vector, t));
+    }
+
+    Vector:(4, float) Lerp(forward Vector:(4, float) a, forward Vector:(4, float) b, float t) {
+        return Vector:(4, float)(__dsf_lerp(a.vector, b.vector, t));
+    }
+}
+
+/* Bits
+*/
+scope Bits {
+    float AsFloat(int a) {
+        return __dsf_asfloat(a);
+    }
+
+    float AsFloat(uint a) {
+        return __dsf_asfloat(a);
+    }
+
+    uint AsUInt(float a) {
+        return __dsf_asuint(a);
+    }
+
+    int AsInt(float a) {
+        return __dsf_asint(a);
+    }
+}
+
+/*  Common resource types
+    Contained in type scope
+*/
+scope Types {
+    auto(type T) type(Texture:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 1)) Texture1D;
+    auto(type T) type(Texture:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 2)) Texture2D;
+    auto(type T) type(Texture:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 3)) Texture3D;
+    auto(type T, int Count) type(TextureMap:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 1, Count)) TextureMap1D;
+    auto(type T, int Count) type(TextureMap:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 2, Count)) TextureMap2D;
+    auto(type T, int Count) type(TextureMap:("color", static if (T matches float) return T[1]; else  return T.ArrayType;, 3, Count)) TextureMap3D;
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Source/Engine/Libraries/VectorMath",
+		"source" : "Source/Engine/Libraries/VectorMath"
+	}
+}

@@ -1,0 +1,54 @@
+__include("Core.dsf");
+__include("Surface.dsf");
+__include(__material_type);
+__include(__material_layout);
+
+scope Material {
+    static class Resource {
+        this() {
+            bucket = Buckets.material;
+        }
+        int bucket;
+    }
+
+    static class Data {
+        this() {
+            bucket = Buckets.material;
+        }
+        int bucket;
+    }
+
+    class Surface {
+        this(VertexData _vertexData) {
+            vertexData = _vertexData;
+            albedo = float3(0.3f, 0.3f, 0.3f);
+            normal = vertexData.GetNormal();
+            roughness = 0.35f;
+            specular = float3(1, 1, 1);
+            metallicness = 0.0f;
+            ao = 0.0f;
+            emissivity = 0.0f;
+        }
+
+        RawSurface AsRaw() {
+            auto raw = RawSurface();
+            raw.f0 = Math.Lerp(specular * 0.08f, albedo, metallicness);
+            raw.roughness = Math.Clamp(roughness, 0.001f, 0.99f);
+            raw.diffuse = albedo * (1.0f - metallicness);
+            raw.emissivity = emissivity;
+            raw.worldNormal = normal;
+            raw.ao = ao;
+            raw.worldPosition = vertexData.GetPosition();
+            return raw;
+        }
+
+        VertexData vertexData;
+        float3 albedo;
+        float3 normal;
+        float roughness;
+        float3 specular;
+        float metallicness;
+        float ao;
+        float emissivity;
+    }
+}

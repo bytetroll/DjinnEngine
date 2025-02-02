@@ -1,0 +1,46 @@
+scope Buckets {
+    static int default = 0;
+    static int instance = 1;
+    static int material = 2;
+}
+
+scope Data {
+    class Scene {
+        float4x4 view;
+        float4x4 projection;
+        float4x4 viewProjection;
+    }
+
+    class Instance {
+        float4x4 transform;
+    }
+
+    class Batch {
+        Instance[512] instances;
+    }
+
+    @Packed(Buckets.default) extern Scene scene;
+    @Packed(Buckets.instance) extern Batch batch;
+    @Dynamic() extern int batchIndex;
+
+    // Get view matrix
+    float4x4 GetView() {
+        return scene.view;
+    }
+
+    // Get projection matrix
+    float4x4 GetProjection() {
+        return scene.projection;
+    }
+
+    // Get view projection matrix
+    float4x4 GetViewProjection() {
+        return scene.viewProjection;
+    }
+
+    // Get world
+    float4x4 GetWorld() {
+        return batch.instances[batchIndex].transform;
+        //return float4x4();
+    }
+}

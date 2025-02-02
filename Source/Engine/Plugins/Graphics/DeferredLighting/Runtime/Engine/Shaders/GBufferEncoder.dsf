@@ -1,0 +1,30 @@
+__include("Surface.dsf");
+__include("Encoding.dsf");
+__include("Common.dsf");
+
+/*
+    GBuffer Layout
+    0: diffuse.xyz (emissivity | ao).w  | r8g8b8a8
+    1: normal.xy roughness.z user.w     | r10g10b10a10
+    2: f0.xyz (sid | sdata).w           | r8g8b8a8
+*/
+
+scope GBuffer {
+    class RTData {
+        this();
+        float4 g0;
+        float4 g1;
+        float4 g2;
+    }
+
+    RTData Encode(Material.RawSurface raw, float4x4 view) {
+        float3 viewNormal = view.mul(float4(raw.worldNormal, 0)).xyz();
+
+        auto data = RTData();
+        data.g0 = float4(raw.diffuse, Encoding.EncFF(raw.emissivity, raw.ao));
+        data.g1 = float4(Encoding.EncNormal(viewNormal), raw.roughness, 1.0f);
+        data.g1 = float4(viewNormal, 1.0f);
+        data.g2 = float4(raw.f0, 0.0f);
+        return data;
+    }
+}

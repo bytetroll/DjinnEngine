@@ -1,0 +1,18 @@
+__include("Core.dsf");
+
+scope Material {
+    class RawSurface {
+        this();
+
+		bool isEmpty;
+        float3 viewPosition;
+        float3 worldPosition;
+        float3 diffuse;
+        float roughness;
+        float3 viewNormal;
+        float3 worldNormal;
+        float3 f0;
+        float ao;
+        float emissivity;
+    }
+}

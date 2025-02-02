@@ -1,0 +1,201 @@
+<style>
+    "rootStack" {
+        margin: 15 15;
+    }
+
+    "stackA" {
+        margin: 0 0;
+    }
+
+    "stackB" {
+        margin: 25 0;
+    }
+
+    "stackC" {
+        margin: 300 300;
+    }
+
+    .right {
+        horizontal-alignment: right;
+    }
+
+    .center {
+        horizontal-alignment: center;
+    }
+
+    .slightlyLeft {
+        margin: -10 0;
+    }
+
+    window {
+        desired-size: 250 500;
+    }
+
+    .windowPos {
+        margin: 600 70;
+    }
+
+    .windowPos2 {
+        margin: 900 50;
+    }
+
+    .windowTitle {
+        horizontal-alignment: left;
+    }
+
+    .windowControls {
+        horizontal-alignment: right;
+    }
+
+    .windowIcon {
+        desired-size: 15 15;
+    }
+
+    .windowControlBar {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+        desired-size: 0 25;
+        padding: 0 2 0 2;
+    }
+
+    .windowControlButton {
+        desired-size: 20 20;
+    }
+
+    .filler {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .windowControl {
+        vertical-alignment: center;
+    }
+
+    .windowBody {
+        padding: 5 5 5 5;
+    }
+
+    itemtest {
+        margin: 200 700;
+    }
+
+    .wrapper {
+        horizontal-scaling: content;
+        vertical-scaling: content;
+    }
+
+    .dockingMaster {
+        margin: 900 300;
+        desired-size: 512 512;
+    }
+
+    .moveAbitDown2 {
+        margin: 700 600;
+        desired-size: 100 200;
+    }
+
+    .moveAbitDown3 {
+        margin: 0 100;
+    }
+
+    .test123 {
+        margin: 1300 700;
+    }
+
+    .center3 {
+        horizontal-alignment: center;
+        vertical-alignment: center;
+    }
+
+    .class {
+        desired-size: 25 0;
+    }
+</style>
+
+<stack name="rootStack" mode="vertical">
+    <stack name="stackA" mode="vertical">
+        <label text="Hello!"/>
+        <label text="My name is..."/>
+        <label text="... drum rolls ..."/>
+        <label text="Fuck you thats what"/>
+        <label text="Right" class="right"/>
+        <label text="Center" class="center"/>
+        <label text="Center" class="center slightlyLeft"/>
+    </stack>
+
+    <stack name="stackB">
+        <label text="Aaand"/>
+        <label text="<|>"/>
+        <label text="A"/>
+        <label text="B"/>
+        <label text="E"/>
+        <label text="<|>"/>
+        <label text="Didn't expect this did you!?"/>
+    </stack>
+
+    <image path="Runtime/Engine/UI/ButtonMB.png"/>
+    <image path="Runtime/Engine/UI/CheckboxOnMB.png"/>
+    <image path="Runtime/Engine/UI/ListboxMB.png"/>
+</stack>
+
+<stack name="stackC" resizable="true">
+    <label class="windowControl sized" text="CONTAINER A"/>
+    <label class="windowControl sized" text="CONTAINER B"/>
+    <label class="windowControl sized" text="CONTAINER C"/>
+    <image name="tits"/>
+    <image/>
+</stack>
+
+<docking mode="vertical" class="dockingMaster">
+    <docking scale="true">
+        <docking merged="true" mode="vertical">
+            <window title="Templates">
+                <label text="Hierarchy stuff"/>
+            </window>
+            <window title="Terrain" scale="true">
+                <label text="Terrain stuff"/>
+            </window>
+        </docking>
+
+        <window scale="true" title="Viewport">
+            <label text="Viewport stuff"/>
+        </window>
+
+        <docking mode="vertical">
+            <window title="Hierarchy">
+                <label text="Hierarchy stuff"/>
+            </window>
+            <window title="Properties" scale="true">
+                <label text="Property stuff"/>
+            </window>
+        </docking>
+    </docking>
+
+    <window title="Content">
+        <label class="center3" text="Content stuff"/>
+    </window>
+</docking>
+
+/*
+<docking mode="vertical">
+    <window title="Templates">
+        <label text="Template stuff"/>
+    </window>
+</docking>*/
+
+/*<tabcontrol class="moveAbitDown2">
+    <tab title="A">
+        <label text="Aass"/>
+    </tab>
+    <tab title="B">
+        <label text="Bass"/>
+    </tab>
+    <tab title="C">
+        <label text="Cass"/>
+    </tab>
+</tabcontrol>
+
+<treeview class="test123">
+    <treeitem/>
+    <treeitem/>
+</treeview>*/

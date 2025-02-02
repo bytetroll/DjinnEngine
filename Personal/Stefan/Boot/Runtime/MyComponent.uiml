@@ -1,0 +1,62 @@
+<style>
+    .my-component {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+    }
+
+    .padding {
+        padding: 7 5 7 5;
+    }
+
+    .background {
+        margin-geometry: 5 5;
+    }
+
+    .fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .fill-content {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+    }
+
+    .option {
+        horizontal-scaling: fill;
+        vertical-scaling: content;
+    }
+
+    .name {
+        vertical-alignment: center;
+        horizontal-alignment: left;
+        color: rgb(0.25, 0.25, 0.25);
+    }
+
+    .value {
+        vertical-alignment: center;
+        horizontal-alignment: right;
+    }
+</style>
+
+<div class="fill-content">
+    <image path="Runtime/WindowMB.png" class="background fill"/>
+
+    <div class="fill-content padding">
+        <stack mode="vertical" class="my-component">
+            <label name="label" class="name" text="..."/>
+
+            <div class="option">
+                <label text="Credit Card # " class="name"/>
+                <textbox name="ccn" class="value" text="0000-0000-0000-0000"/>
+            </div>
+
+            <div class="option">
+                <label text="CRC " class="name"/>
+                <textbox name="crc" class="value" text="000"/>
+            </div>
+
+            <button text="Submit" pressed="OnApply"/>
+        </stack>
+    </div>
+</div>

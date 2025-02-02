@@ -1,0 +1,46 @@
+__include("Surface.dsf");
+__include("Encoding.dsf");
+__include("Common.dsf");
+
+/*
+    GBuffer Layout
+    0: diffuse.xyz (emissivity | ao).w  | r8g8b8a8
+    1: normal.xy roughness.z user.w     | r10g10b10a10
+    2: f0.xyz (sid | sdata).w           | r8g8b8a8
+*/
+
+// Resources
+scope Resources {
+    @Resource(Buckets.default, "GBuffer.Depth") extern Types.Texture2D:float gbufferDepth;
+    @Resource(Buckets.default, "GBuffer.0") extern Types.Texture2D:float4 gbuffer0;
+    @Resource(Buckets.default, "GBuffer.1") extern Types.Texture2D:float4 gbuffer1;
+    @Resource(Buckets.default, "GBuffer.2") extern Types.Texture2D:float4 gbuffer2;
+}
+
+scope GBuffer {
+    Material.RawSurface Decode(float2 texcoord, float4x4 viewInv, float4x4 projectionInv) {
+        auto depth = Resources.gbufferDepth.Sample(texcoord);
+        auto g0 = Resources.gbuffer0.Sample(texcoord);
+        auto g1 = Resources.gbuffer1.Sample(texcoord);
+        auto g2 = Resources.gbuffer2.Sample(texcoord);
+
+        auto raw = Material.RawSurface();
+		raw.isEmpty = (depth == 1.0f);
+
+        raw.viewPosition = Common.ViewPositionFromDepth(projectionInv, texcoord, depth);
+        raw.worldPosition = viewInv.mul(float4(raw.viewPosition, 1)).xyz();
+
+        raw.diffuse = g0.xyz();
+
+        auto decoded = Encoding.DecFF(g0.w());
+        raw.emissivity = decoded.a;
+        raw.ao = decoded.b;
+
+        raw.viewNormal = Encoding.DecNormal(g1.xy());
+        raw.worldNormal = viewInv.mul(float4(g1.xyz(), 0)).xyz();
+        raw.roughness = g1.z();
+        raw.f0 = g2.xyz();
+
+        return raw;
+    }
+}

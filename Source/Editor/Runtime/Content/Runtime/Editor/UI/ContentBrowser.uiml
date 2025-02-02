@@ -1,0 +1,35 @@
+<style>
+    .editor-contentbrowser-search {
+        desired-size: 200 25;
+    }
+
+    .editor-contentbrowser-content {
+        padding: 5 5 5 5;
+    }
+
+    .editor-contentbrowser-tree {
+        desired-size: 200 0;
+    }
+</style>
+
+<stack mode="vertical" class="fill">
+    <stack class="hfill">
+        <label text="Content Browser" class="vc"/>
+        <textbox class="right vc editor-contentbrowser-search"/>
+    </stack>
+    <stack class="fill">
+        <treeview name="tree" class="vfill editor-contentbrowser-tree">
+            /* Directories */
+        </treeview>
+
+        <div class="fill editor-contentbrowser-content">
+            <image class="fill editor-contentbrowser-content"/>
+
+            <scroll-area class="fill">
+                <stack class="fill" name="items" mode="scangrid">
+                    /**/
+                </stack>
+            </scroll-area>
+        </div>
+    </stack>
+</stack>

@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="Editor.World" />
+      <config projectName="Project" targetName="Editor.Templates" />
+      <config projectName="Project" targetName="Editor.Importers.Mesh" />
+      <config projectName="Project" targetName="Editor.Hierarchy" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Window" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Viewport" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Data.Mesh" />
+      <config projectName="Project" targetName="Editor.Layout" />
+      <config projectName="Project" targetName="Editor.Application" />
+      <config projectName="Project" targetName="Editor.Graphics" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Importers.Mesh" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Application" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Templates" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Level" />
+      <config projectName="Project" targetName="Editor.Data.Level" />
+      <config projectName="Project" targetName="Editor.Viewport" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Layout" />
+      <config projectName="Project" targetName="Editor.Data.Mesh" />
+      <config projectName="Project" targetName="Editor.Properties" />
+      <config projectName="Project" targetName="Editor.Content" />
+      <config projectName="Project" targetName="Editor.Level" />
+      <config projectName="Project" targetName="All" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Data.Asset" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Graphics" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Hierarchy" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Content" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Properties" />
+      <config projectName="Project" targetName="Z_DHG.Editor.Data.Level" />
+      <config projectName="Project" targetName="Z_Mirror.Editor.Application" />
+      <config projectName="Project" targetName="Z_DHG.Editor.World" />
+      <config projectName="Project" targetName="Editor.Window" />
+      <config projectName="Project" targetName="Editor.Data.Asset" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug64" CONFIG_NAME="Debug64" />
+      <configuration PROFILE_NAME="Release64" CONFIG_NAME="Release64" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8b1cb8e-cb39-4826-ac48-55e5b515a3b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Runtime/Viewport/Include/Editor/Actors/Grid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Runtime/Viewport/Source/Actors/Grid.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Engine/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Hierarchy/Runtime/Editor/UI/Hierarchy.uiml" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Hierarchy/Runtime/Editor/UI/Hierarchy.uiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Hierarchy/Source/Elements/Hierarchy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Hierarchy/Source/Elements/Hierarchy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Level/Runtime/Editor/UI/Hierarchy.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Level/Runtime/Editor/UI/Properties.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Level/Runtime/Editor/UI/Templates.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Level/Runtime/Editor/UI/Viewport.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Properties/Runtime/Editor/UI/Properties.uiml" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Properties/Runtime/Editor/UI/Properties.uiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Properties/Source/Elements/Properties.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Properties/Source/Elements/Properties.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Templates/Runtime/Editor/UI/Templates.uiml" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Templates/Runtime/Editor/UI/Templates.uiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Templates/Source/Elements/Templates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Templates/Source/Elements/Templates.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Viewport/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Viewport/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Viewport/Source/Elements/Viewport.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Viewport/Source/Elements/Viewport.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/World/Runtime/Editor/UI/Bootstrap.uiml" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/World/Runtime/Editor/UI/Bootstrap.uiml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Libraries/Core/Compiler/Include/Core/Annotation.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Libraries/Core/Compiler/Include/Core/Annotation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Data/Material/Runtime/Engine/Shaders/Material.dsf" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Data/Material/Runtime/Engine/Shaders/Material.dsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Data/Material/Runtime/Engine/Shaders/Surface.dsf" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Data/Material/Runtime/Engine/Shaders/Surface.dsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Graphics/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Graphics/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Graphics/DeferredLighting/Runtime/Engine/Shaders/DeferredDirectionalLight.dsf" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Graphics/DeferredLighting/Runtime/Engine/Shaders/DeferredDirectionalLight.dsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Graphics/DeferredLighting/Runtime/Engine/Shaders/GBufferEncoder.dsf" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Graphics/DeferredLighting/Runtime/Engine/Shaders/GBufferEncoder.dsf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/Graphics/UI/Source/UIDrawPass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/Graphics/UI/Source/UIDrawPass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/UI/Controls/Include/UI/Elements/UILabel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/UI/Controls/Include/UI/Elements/UILabel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Engine/Plugins/UI/Controls/Source/Elements/UILabel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Engine/Plugins/UI/Controls/Source/Elements/UILabel.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug64/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release64/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug64" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Runtime/Content/Runtime/Editor/UI/ContentBrowser.uiml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Include/Editor/Actors/Grid.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Source/Actors/Grid.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#39#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Engine/Libraries/Core/Containers/Include/Core/Unique.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buildpath</find>
+      <find>editor.layout</find>
+      <find>(TARGET</find>
+      <find>ActualDependencies</find>
+      <find>installedtype</find>
+      <find>operator</find>
+      <find>.BuildPath</find>
+      <find>BuildPath</find>
+      <find>DJINN_PATH_PIPELINE</find>
+      <find>PlatformIncludePath</find>
+      <find>uiml::class</find>
+      <find>World</find>
+      <find>Djinn::Editor::</find>
+      <find>WorldHostSystem</find>
+      <find>IComponentSystem</find>
+      <find>CreateFeature</find>
+      <find>Viewport</find>
+      <find>&amp;host))</find>
+      <find>CMAKE_BUILD_TYPE</find>
+      <find>config</find>
+      <find>Config</find>
+      <find>Djinn_Project_LoadOrder</find>
+      <find>levelLayout</find>
+      <find>scene</find>
+      <find>Could not find style class</find>
+      <find>editor-properties</find>
+      <find>Expected properties host to be installed</find>
+      <find>host to be installed</find>
+      <find>shader</find>
+      <find>plugins.graphics.debug</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ViewportWorldPackage</replace>
+      <replace>ViewportCamera</replace>
+      <replace>Main</replace>
+      <replace>Level</replace>
+      <replace>EditorWorldSystem</replace>
+      <replace>Hierarchy</replace>
+      <replace>Properties</replace>
+      <replace>Templates</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Runtime/Properties/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Runtime/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Include/Editor/IHierarchyHost.h" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Include/Editor/Elements/Hierarchy.h" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Include/Editor/HierarchyWorldPackage.h" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Source/Plugin.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Include/Editor/HierarchyHost.h" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Source/HierarchyHost.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Include/Editor/Elements/Properties.h" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Include/Editor/IPropertiesHost.h" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Include/Editor/PropertiesWorldPackage.h" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Source/Plugin.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Include/Editor/Elements/Templates.h" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Include/Editor/ITemplatesHost.h" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Include/Editor/TemplatesWorldPackage.h" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Source/Plugin.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Level/Include/Editor/Level.h" />
+        <option value="$PROJECT_DIR$/Runtime/Level/Include/Editor/ILevel.h" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Source/HierarchyWorldPackage.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Source/PropertiesHost.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Include/Editor/PropertiesHost.h" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Source/PropertiesWorldPackage.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Source/TemplatesWorldPackage.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Viewport/Source/ViewportWorldPackage.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Source/TemplatesHost.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Include/Editor/TemplatesHost.h" />
+        <option value="$PROJECT_DIR$/../../Build/Packages/Package.cmake" />
+        <option value="$PROJECT_DIR$/../../Build/Packages/PackageResolve.cmake" />
+        <option value="$PROJECT_DIR$/Runtime/Level/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/../Engine/Libraries/Host/Source/Registry.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Data/Asset/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Runtime/World/Include/Editor/EditorWorld.h" />
+        <option value="$PROJECT_DIR$/Runtime/World/Include/Editor/IEditorWorld.h" />
+        <option value="$PROJECT_DIR$/Runtime/World/Source/EditorWorld.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Layout/Source/Plugin.cpp" />
+        <option value="$PROJECT_DIR$/Application/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Layout/Include/Editor/Elements/MainLayout.h" />
+        <option value="$PROJECT_DIR$/Runtime/Layout/Source/Elements/MainLayout.cpp" />
+        <option value="$PROJECT_DIR$/../Engine/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Source/Elements/Properties.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Source/Elements/Hierarchy.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Source/Elements/Templates.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/Viewport/Source/Elements/Viewport.cpp" />
+        <option value="$PROJECT_DIR$/Runtime/World/Runtime/Editor/UI/Bootstrap.uiml" />
+        <option value="$PROJECT_DIR$/Runtime/Hierarchy/Runtime/Editor/UI/Hierarchy.uiml" />
+        <option value="$PROJECT_DIR$/Runtime/Properties/Runtime/Editor/UI/Properties.uiml" />
+        <option value="$PROJECT_DIR$/Runtime/Templates/Runtime/Editor/UI/Templates.uiml" />
+        <option value="$PROJECT_DIR$/Runtime/Viewport/Include/Editor/Actors/Grid.h" />
+        <option value="$PROJECT_DIR$/Runtime/Viewport/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Runtime/Viewport/Source/Actors/Grid.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="39" />
+    <option name="y" value="97" />
+    <option name="width" value="1515" />
+    <option name="height" value="868" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name=".API.Editor.Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="Viewport" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="Viewport" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Editor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Editor" type="462c0819:PsiDirectoryNode" />
+              <item name="Runtime" type="462c0819:PsiDirectoryNode" />
+              <item name="Viewport" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Actors" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dev\CLionProjects\DjinnEngine\Source\Editor\Runtime\Layout\Include\Editor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Editor.Application">
+    <configuration name="All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="All" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Application" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Editor.Application">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Content" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Content" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Data.Asset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Data.Asset" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Data.Level" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Data.Level" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Data.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Data.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Graphics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Graphics" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Hierarchy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Hierarchy" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Importers.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Importers.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Layout" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Layout" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Level" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Level" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Properties" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Properties" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Templates" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Viewport" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Viewport" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.Window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.Window" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Editor.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Editor.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Application" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Content" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Content" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Data.Asset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Data.Asset" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Data.Level" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Data.Level" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Data.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Data.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Graphics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Graphics" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Hierarchy" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Hierarchy" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Importers.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Importers.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Layout" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Layout" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Level" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Level" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Properties" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Properties" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Templates" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Templates" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Viewport" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Viewport" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.Window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.Window" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Editor.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Editor.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Editor.Application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Editor.Application" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.All" />
+      <item itemvalue="Application.Editor.Application" />
+      <item itemvalue="Application.Editor.Content" />
+      <item itemvalue="Application.Editor.Data.Asset" />
+      <item itemvalue="Application.Editor.Data.Level" />
+      <item itemvalue="Application.Editor.Data.Mesh" />
+      <item itemvalue="Application.Editor.Graphics" />
+      <item itemvalue="Application.Editor.Hierarchy" />
+      <item itemvalue="Application.Editor.Importers.Mesh" />
+      <item itemvalue="Application.Editor.Layout" />
+      <item itemvalue="Application.Editor.Level" />
+      <item itemvalue="Application.Editor.Properties" />
+      <item itemvalue="Application.Editor.Templates" />
+      <item itemvalue="Application.Editor.Viewport" />
+      <item itemvalue="Application.Editor.Window" />
+      <item itemvalue="Application.Editor.World" />
+      <item itemvalue="Application.Z_DHG.Editor.Application" />
+      <item itemvalue="Application.Z_DHG.Editor.Content" />
+      <item itemvalue="Application.Z_DHG.Editor.Data.Asset" />
+      <item itemvalue="Application.Z_DHG.Editor.Data.Level" />
+      <item itemvalue="Application.Z_DHG.Editor.Data.Mesh" />
+      <item itemvalue="Application.Z_DHG.Editor.Graphics" />
+      <item itemvalue="Application.Z_DHG.Editor.Hierarchy" />
+      <item itemvalue="Application.Z_DHG.Editor.Importers.Mesh" />
+      <item itemvalue="Application.Z_DHG.Editor.Layout" />
+      <item itemvalue="Application.Z_DHG.Editor.Level" />
+      <item itemvalue="Application.Z_DHG.Editor.Properties" />
+      <item itemvalue="Application.Z_DHG.Editor.Templates" />
+      <item itemvalue="Application.Z_DHG.Editor.Viewport" />
+      <item itemvalue="Application.Z_DHG.Editor.Window" />
+      <item itemvalue="Application.Z_DHG.Editor.World" />
+      <item itemvalue="Application.Z_Mirror.Editor.Application" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b1cb8e-cb39-4826-ac48-55e5b515a3b7" name="Default Changelist" comment="" />
+      <created>1547760080576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547760080576</updated>
+      <workItem from="1547760081800" duration="2567000" />
+      <workItem from="1547837203929" duration="9742000" />
+      <workItem from="1547890023196" duration="11986000" />
+      <workItem from="1547974688100" duration="3149000" />
+      <workItem from="1547983020282" duration="53000" />
+      <workItem from="1547983185603" duration="160000" />
+      <workItem from="1547983360457" duration="16664000" />
+      <workItem from="1548092141684" duration="551000" />
+      <workItem from="1548092696624" duration="14046000" />
+      <workItem from="1548176327466" duration="17946000" />
+      <workItem from="1548264613038" duration="6299000" />
+      <workItem from="1548351454931" duration="609000" />
+      <workItem from="1548352298216" duration="2104000" />
+      <workItem from="1548438679832" duration="9551000" />
+      <workItem from="1548496846442" duration="18030000" />
+      <workItem from="1548527138549" duration="598000" />
+      <workItem from="1548582548204" duration="3202000" />
+      <workItem from="1548624041982" duration="590000" />
+      <workItem from="1548696280382" duration="12849000" />
+      <workItem from="1548782398227" duration="264000" />
+      <workItem from="1548782674057" duration="1252000" />
+      <workItem from="1550076388874" duration="3802000" />
+      <workItem from="1550165829642" duration="8718000" />
+      <workItem from="1550262938779" duration="883000" />
+      <workItem from="1552604513862" duration="5000" />
+      <workItem from="1560886822126" duration="5000" />
+    </task>
+    <task id="LOCAL-00001" summary="Build system fix">
+      <created>1548702119232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548702119232</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Custom scene support&#10;Moved canvas as scene&#10;Editor misc">
+      <created>1548702674053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548702674053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145625000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="39" y="97" width="1515" height="868" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.6281787" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.28277355" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Build system fix" />
+    <MESSAGE value="Custom scene support&#10;Moved canvas as scene&#10;Editor misc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom scene support&#10;Moved canvas as scene&#10;Editor misc" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Desktop/Source/Elements/UIDocking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Desktop/Include/UI/Elements/IDockable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Source/Elements/LevelLayout.cpp" />
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Include/Editor/Elements/ILevelLayout.h" />
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Include/Editor/Elements/LevelLayout.h" />
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/UIML/Include/UI/IControl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/UIML/Include/UI/IUIMLHost.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Level/Source/LevelHost.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="95" selection-start-line="31" selection-start-column="95" selection-end-line="31" selection-end-column="95" />
+          <folding>
+            <element signature="e#39#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Level/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/World/Include/Editor/IEditorWorld.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/World/Include/Editor/EditorWorld.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/World/Source/EditorWorld.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#39#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Libraries/COM/Include/COM/IUnknown.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="369" selection-start-line="369" selection-end-line="369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/.API.Editor.Layout/DHG.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Desktop/Source/Elements/UIDockingManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Include/Editor/Elements/MainLayout.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Source/Elements/MainLayout.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <element signature="e#39#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Templates/Source/Elements/Templates.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Core/Include/UI/IUIElement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="43" column="40" lean-forward="true" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Core/Source/IUIElement.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Hierarchy/Include/Editor/Elements/Hierarchy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Properties/Include/Editor/Elements/Properties.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Properties/Source/PropertiesHost.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Layout/Include/Editor/ILevelLayoutSceneState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Level/Runtime/Editor/UI/Hierarchy.uiml" />
+    <entry file="file://$PROJECT_DIR$/Runtime/Properties/Runtime/Editor/UI/Properties.uiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Templates/Runtime/Editor/UI/Templates.uiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Hierarchy/Runtime/Editor/UI/Hierarchy.uiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/World/Runtime/Editor/UI/Bootstrap.uiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Properties/Source/PropertiesWorldPackage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Properties/Source/Elements/Properties.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Hierarchy/Source/Elements/Hierarchy.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Include/Editor/Actors/IViewportCamera.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Build/Project/ProjectConfigure.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="372" column="63" lean-forward="true" selection-start-line="372" selection-start-column="63" selection-end-line="372" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Build/CMake/Message.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Viewport/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/Graphics/System/Source/GraphicsSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/GHA/Vulkan/Source/Interpreter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/GHA/Vulkan/Source/CommandList.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Libraries/Core/Reflection/Include/Core/DynamicParameterStack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Plugins/UI/Core/Source/ElementComponents/UIStackTransformComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="256" column="56" lean-forward="true" selection-start-line="256" selection-start-column="56" selection-end-line="256" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Libraries/VectorMath/Include/Math/Vector2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Content/Runtime/Editor/UI/ContentBrowser.uiml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Include/Editor/Actors/Grid.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Engine/Libraries/Core/Containers/Include/Core/Unique.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Runtime/Viewport/Source/Actors/Grid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#39#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

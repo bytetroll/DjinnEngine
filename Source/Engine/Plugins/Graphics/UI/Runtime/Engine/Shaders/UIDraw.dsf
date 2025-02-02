@@ -1,0 +1,122 @@
+__include("Core.dsf");
+
+// Buckets
+scope Buckets {
+    static int default = 0;
+}
+
+// Resources
+scope Resources {
+    @Resource(Buckets.default)
+    extern Types.TextureMap2D:(float4, 64) textureMap;
+}
+
+// Data
+scope Data {
+    struct Camera {
+        float4x4 viewProjection;
+    }
+
+    struct Instance {
+        float4x4 transform;
+        float4 viewport;
+        float4 attributes;
+        float4 param0;
+        float4 param1;
+        float4 param2;
+    }
+
+    struct Batch {
+        Instance[450] instances;
+    }
+
+    @Packed(Buckets.default) extern Camera camera;
+    @Packed(Buckets.default) extern Batch batch;
+}
+
+// Input Assembly
+struct Vertex {
+    @Attribute("vertex", 0) float2 position;
+    @Attribute("vertex", 0) float2 texcoord;
+    @Attribute("vertex", 0) int instance;
+}
+
+// Vertex Interop
+struct VertexInterop {
+    this();
+    @Semantic("position") float4 position;
+    float2 texcoord;
+    int instance;
+}
+
+// Vertex kernel
+@Kernel("vertex")
+VertexInterop vertexKernel(Vertex vertex) {
+    auto instance = Data.batch.instances[vertex.instance];
+
+	// Project
+	auto projected = instance.transform.mul(float4(vertex.position, 0, 1));
+
+    // Perform crude clip
+    auto clipped = float4(
+		Math.Clamp(projected.xy(), instance.viewport.xy(), instance.viewport.zw()),
+		projected.zw()
+	);
+
+    // Transform
+    auto interop = VertexInterop();
+    interop.position = Data.camera.viewProjection.mul(clipped);
+    interop.texcoord = vertex.texcoord;
+    interop.instance = vertex.instance;
+    return interop;
+}
+
+// Pixel kernel
+@Kernel("pixel")
+float4 pixelKernel(VertexInterop interop) {
+    auto instance = Data.batch.instances[interop.instance];
+
+    // 0 : Solid
+    //     param0.xyzw = color
+    // 1 : Gradient
+    //     param0.xy = begin, param0.zw = end
+    //     param1.xyzw = beginColor
+    //     param2.xyzw = endColor
+    // 2 : Image
+    //     param0.xyzw = color
+    // 3 : Font
+    //     param0.x = smoothing
+    //     param1.xyzw = color
+    int brushType = (instance.attributes.x() as int);
+    int imageIndex = (instance.attributes.y() as int);
+
+    float4 color;
+
+    if (brushType == 0) {
+        color = instance.param0;
+    } else if (brushType == 1) {
+        float2 ab = instance.param0.zw() - instance.param0.xy();
+        color = Math.Lerp(
+            instance.param1,
+            instance.param2,
+            Math.Dot(
+                interop.texcoord - instance.param0.xy(),
+                ab
+            ) / ab.Length2()
+        );
+    } else if (brushType == 2) {
+        color = Resources.textureMap.Sample(interop.texcoord, imageIndex) * instance.param0;
+    } else {
+        color = float4(
+            instance.param1.xyz(),
+            instance.param1.w() * Math.Smoothstep(
+                0.5f - instance.param0.x(),
+                0.5f + instance.param0.x(),
+                Resources.textureMap.Sample(interop.texcoord, imageIndex).x()
+            )
+        );
+    }
+
+    //return float4(color.xyz() * color.www(), color.w());
+    return float4(color.xyz(), color.w());
+}

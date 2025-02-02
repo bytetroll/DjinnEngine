@@ -1,0 +1,35 @@
+__include("Core.dsf");
+
+scope Encoding {
+    float2 EncNormal(float3 n) {
+	    return n.xy() / Math.Sqrt(n.x() * n.x() + n.y() * n.y() + Math.Square(1.0f - n.z())) * 0.5f + 0.5f;
+    }
+
+    float3 DecNormal(float2 n) {
+        float f = (n - n * n).Sum();
+        return float3(
+            (n * 4.0f - 2.0f) * Math.Sqrt(Math.Abs(4.0f * f - 1.0f)),
+            3.0f - 8.0f * f
+        );
+    }
+
+    class FFData {
+        this();
+        float a;
+        float b;
+    }
+
+    float EncFF(float a, float b) {
+        uint aScaled = (a as uint) * 0xFFFF;
+        uint bScaled = (b as uint) * 0xFFFF;
+        return Bits.AsFloat((aScaled << 16) | (bScaled & 0xFFFF));
+    }
+
+    FFData DecFF(float enc) {
+        auto data = FFData();
+        uint uintInput = Bits.AsUInt(enc);
+        data.a = ((uintInput >> 16) as float) / 65535.0f;
+        data.b = ((uintInput & 0xFFFF) as float) / 65535.0f;
+        return data;
+    }
+}

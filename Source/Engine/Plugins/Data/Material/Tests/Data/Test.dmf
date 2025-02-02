@@ -1,0 +1,26 @@
+__include("Material.dsf");
+
+// Resources
+@MaterialResource() extern Types.Texture2D:float4 source;
+
+// Vertex data
+class Vertex {
+    this();
+
+    // Layout data
+    MaterialVertexData data;
+}
+
+// Vertex shader
+Vertex _vertex(MaterialVertexInput input) {
+    auto vertex = Vertex();
+    vertex.data = TransformVertexData(input);
+    return vertex;
+}
+
+// Pixel shader
+Surface _pixel(Vertex vertex) {
+    auto surface = Surface(vertex.data);
+    surface.albedo = source.Sample(vertex.data.GetTexcoord());
+    return surface;
+}

@@ -1,0 +1,29 @@
+TOKEN("<")
+TOKEN(">")
+TOKEN("{")
+TOKEN("}")
+TOKEN("(")
+TOKEN(")")
+TOKEN("=")
+TOKEN("-")
+TOKEN(":")
+TOKEN(".")
+TOKEN(",")
+TOKEN("-")
+TOKEN(";")
+TOKEN("/")
+
+/* Special values */
+TOKEN("rgb")
+
+/* Component */
+TOKEN("component")
+TOKEN("group")
+TOKEN("category")
+TOKEN("data")
+TOKEN("any")
+
+/* Style */
+TOKEN("style")
+TOKEN("px")
+TOKEN("using")

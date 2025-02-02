@@ -1,0 +1,19 @@
+__include("Core.dsf");
+
+@Resource(0) extern Types.TextureMap2D:(float4, 64) textures;
+
+struct VertexInterop {
+    this();
+    @Semantic("position") float4 position;
+}
+
+@Kernel("vertex")
+VertexInterop vs() {
+    return VertexInterop();
+}
+
+@Kernel("pixel")
+float4 ps(VertexInterop interop) {
+    int a = 0;
+    return textures.Sample(float2(0, 0), a);
+}

@@ -1,0 +1,12 @@
+# Get plaform include name
+macro(Djinn_Platform_IncludePath OUT)
+    if (Djinn.Platform STREQUAL Windows)
+        set(${OUT} "IncludeWindows")
+    elseif(Djinn.Platform STREQUAL Linux)
+        set(${OUT} "IncludeLinux")
+    elseif(Djinn.Platform STREQUAL Darwin)
+        set(${OUT} "IncludeDarwin")
+    else ()
+        Djinn_LogError("Unknown platform: '${Djinn.Platform}'")
+    endif ()
+endmacro(Djinn_Platform_IncludePath)

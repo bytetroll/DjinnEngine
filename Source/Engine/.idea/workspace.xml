@@ -1,0 +1,2080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="Plugins.Data.Shader.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.UI.Controls" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Game.Component" />
+      <config projectName="Project" targetName="Plugins.Graphics.UI" />
+      <config projectName="Project" targetName="Libraries.Core.Memory" />
+      <config projectName="Project" targetName="Libraries.GHA" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.System" />
+      <config projectName="Project" targetName="Plugins.Base.Memory" />
+      <config projectName="Project" targetName="Plugins.UI.Diagnostic" />
+      <config projectName="Project" targetName="Plugins.UI.UIML" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.GHA.PipelineScheduler" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.UI.Desktop" />
+      <config projectName="Project" targetName="Plugins.Game.Scene" />
+      <config projectName="Project" targetName="Plugins.UI.Controls" />
+      <config projectName="Project" targetName="Libraries.Core.Containers" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Game.Scene" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Font" />
+      <config projectName="Project" targetName="Libraries.Core.Memory.Test" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Data.Material.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Game.System" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.Memory" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.Logging.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Lighting" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.UI" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Texture" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.UIML" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.Application" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Serialization.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Async" />
+      <config projectName="Project" targetName="Plugins.Data.Shader" />
+      <config projectName="Project" targetName="Plugins.GHA.VulkanShader" />
+      <config projectName="Project" targetName="Libraries.Platform.Threading" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.UI.Diagnostic" />
+      <config projectName="Project" targetName="Plugins.Data.Font" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.DeferredLighting" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Configuration" />
+      <config projectName="Project" targetName="Plugins.Graphics.PostProcessing" />
+      <config projectName="Project" targetName="Plugins.Data.World" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.Core.Memory.Test" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.System" />
+      <config projectName="Project" targetName="Plugins.Async" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.COM.Test" />
+      <config projectName="Project" targetName="Libraries.Platform.Window" />
+      <config projectName="Project" targetName="Libraries.Platform.User" />
+      <config projectName="Project" targetName="Plugins.Game.Input" />
+      <config projectName="Project" targetName="Plugins.GHA.VulkanShader.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.GHA.VulkanShader.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.FileSystem.Tests" />
+      <config projectName="Project" targetName="Plugins.Serialization" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.World" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Game.Input" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Texture.Tests" />
+      <config projectName="Project" targetName="Plugins.Data.UIML.Tests" />
+      <config projectName="Project" targetName="Libraries.Core.Stream" />
+      <config projectName="Project" targetName="Libraries.Host" />
+      <config projectName="Project" targetName="Plugins.Data.Material" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.UIML.Tests" />
+      <config projectName="Project" targetName="Plugins.Base.System" />
+      <config projectName="Project" targetName="Libraries.VectorMath.Tests" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.Core.Reflection.Tests" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Data.Texture.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Material" />
+      <config projectName="Project" targetName="Plugins.Graphics.Scene" />
+      <config projectName="Project" targetName="Plugins.Data.UIML" />
+      <config projectName="Project" targetName="Plugins.Graphics.System" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.UI.UIML" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Data.Mesh.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Serialization" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Shader" />
+      <config projectName="Project" targetName="Plugins.Game.Component" />
+      <config projectName="Project" targetName="Libraries.Platform.IO" />
+      <config projectName="Project" targetName="Libraries.Platform.Window.Tests" />
+      <config projectName="Project" targetName="Plugins.Configuration" />
+      <config projectName="Project" targetName="Plugins.Data.Material.Tests" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Data.Shader.Tests" />
+      <config projectName="Project" targetName="Libraries.Platform.Library" />
+      <config projectName="Project" targetName="Plugins.Base.Logging" />
+      <config projectName="Project" targetName="Libraries.Core.Event" />
+      <config projectName="Project" targetName="Libraries.Core.Regex" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Shader.Tests" />
+      <config projectName="Project" targetName="Plugins.Data.Mesh" />
+      <config projectName="Project" targetName="Plugins.Graphics.Camera" />
+      <config projectName="Project" targetName="Plugins.Graphics.Common" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.Reflection.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.World" />
+      <config projectName="Project" targetName="Plugins.Base.Application" />
+      <config projectName="Project" targetName="Plugins.UI.Core" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Reflection" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Output" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Data.UIML.Tests" />
+      <config projectName="Project" targetName="Libraries.Core.Reflection.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Camera" />
+      <config projectName="Project" targetName="Plugins.Graphics.DeferredLighting" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.GHA.VulkanShader.Tests" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.Platform.Window.Tests" />
+      <config projectName="Project" targetName="Plugins.Data.Asset" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Common" />
+      <config projectName="Project" targetName="Plugins.Graphics.Output" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Base.Logging.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Mesh.Tests" />
+      <config projectName="Project" targetName="Libraries.Reflection" />
+      <config projectName="Project" targetName="Plugins.Graphics.Graph" />
+      <config projectName="Project" targetName="Plugins.Reflection" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Serialization.Tests" />
+      <config projectName="Project" targetName="Libraries.Core.Debug" />
+      <config projectName="Project" targetName="Libraries.COM.Test" />
+      <config projectName="Project" targetName="Plugins.GHA.PipelineScheduler" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Material.Tests" />
+      <config projectName="Project" targetName="Plugins.Data.Mesh.Tests" />
+      <config projectName="Project" targetName="Plugins.Base.FileSystem" />
+      <config projectName="Project" targetName="Libraries.Core.Compiler" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Asset" />
+      <config projectName="Project" targetName="Libraries.Core.Idioms" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Scene" />
+      <config projectName="Project" targetName="Plugins.Game.World" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.FileSystem" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.Core.Containers.Tests" />
+      <config projectName="Project" targetName="Plugins.Graphics.World" />
+      <config projectName="Project" targetName="Libraries.Core.Time" />
+      <config projectName="Project" targetName="Plugins.Base.Window" />
+      <config projectName="Project" targetName="Plugins.Graphics.Lighting" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Game.World" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.PostProcessing" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.Window" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.GHA.VulkanShader" />
+      <config projectName="Project" targetName="Plugins.Data.Texture.Tests" />
+      <config projectName="Project" targetName="Plugins.Data.Texture" />
+      <config projectName="Project" targetName="Plugins.UI.Desktop" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.GHA.Vulkan" />
+      <config projectName="Project" targetName="Z_Mirror.Libraries.VectorMath.Tests" />
+      <config projectName="Project" targetName="Libraries.VectorMath" />
+      <config projectName="Project" targetName="Libraries.Reflection.Tests" />
+      <config projectName="Project" targetName="Libraries.Core.Containers.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Data.Mesh" />
+      <config projectName="Project" targetName="Plugins.Base.Logging.Tests" />
+      <config projectName="Project" targetName="Plugins.GHA.Vulkan" />
+      <config projectName="Project" targetName="Plugins.Base.FileSystem.Tests" />
+      <config projectName="Project" targetName="Z_Mirror.Plugins.Base.FileSystem.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Base.Logging" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.Graphics.Graph" />
+      <config projectName="Project" targetName="Plugins.Game.System" />
+      <config projectName="Project" targetName="All" />
+      <config projectName="Project" targetName="Plugins.Serialization.Tests" />
+      <config projectName="Project" targetName="Z_DHG.Plugins.UI.Core" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug64" CONFIG_NAME="Debug64" BUILD_OPTIONS="-j 6" />
+      <configuration PROFILE_NAME="Release64" CONFIG_NAME="Release64" BUILD_OPTIONS="-j 6" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f29243a6-9d4c-460b-ba52-d17b62249748" name="Default Changelist" comment="Package path fix, Build-system fixes, Build all support">
+      <change afterPath="$PROJECT_DIR$/../Editor/.idea/Editor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Data/Level/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Data/Level/Include/Editor/ILevelAsset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Data/Level/Source/Plugin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/IMainLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/MainLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Runtime/Editor/UI/LevelLayout.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Runtime/Editor/UI/MainLayout.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Source/Elements/MainLayout.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/Command.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/CommandFlag.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/CommandHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ComponentAttribute.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ComponentHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/Components/RuntimeComponent.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ICommandHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ICommandProcessor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/IComponentHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ILevel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/ILevelHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/Level.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Include/Editor/LevelHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Runtime/Editor/UI/Hierarchy.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Runtime/Editor/UI/Properties.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Runtime/Editor/UI/Templates.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Runtime/Editor/UI/Viewport.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/CommandHost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/ComponentHost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/Components/RuntimeComponent.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/Level.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/LevelHost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Level/Source/Plugin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/Actors/IViewportCamera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/Actors/ViewportCamera.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/Elements/Viewport.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/IViewportHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/ViewportHost.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Include/Editor/ViewportWorldPackage.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Runtime/Editor/UI/Viewport.uiml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Source/Actors/ViewportCamera.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Source/Elements/Viewport.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Source/Plugin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Source/ViewportHost.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Editor/Runtime/Viewport/Source/ViewportWorldPackage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISceneState.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISpatialScene.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/Elements/CanvasLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/Elements/CanvasLayout.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/Desktop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Build/Packages/Package.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Build/Packages/Package.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Build/Packages/PackageResolve.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../Build/Packages/PackageResolve.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/Graphics/UI/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/Graphics/UI/Source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Application/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Application/Source/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Data/Asset/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Data/Asset/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Data/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Data/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/ILayout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/IViewport.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/IViewport.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/Elements/Layout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Runtime/Editor/UI/Layout.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Source/Elements/Layout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Layout/Source/Plugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Source/Plugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Actors/ISceneCamera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Actors/SceneCamera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Command.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/CommandFlag.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/CommandHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/ComponentAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/ComponentHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Components/RuntimeComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Elements/Hierarchy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Elements/Properties.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Elements/Templates.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Elements/Viewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/ICommandHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/IComponentHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/ILevel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/ILevelHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/Level.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/LevelHost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/SceneFeature.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/Layout/Include/Editor/WorldFeatures.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Include/Editor/SceneWorldPackage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Runtime/Editor/UI/Hierarchy.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Runtime/Editor/UI/Properties.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Runtime/Editor/UI/Templates.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Runtime/Editor/UI/Viewport.uiml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Actors/SceneCamera.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/CommandHost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/ComponentHost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Components/RuntimeComponent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Elements/Hierarchy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Elements/Properties.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Elements/Templates.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Elements/Viewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Level.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/LevelHost.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/Plugin.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/Scene/Source/SceneWorldPackage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/World/Include/Editor/EditorWorld.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/World/Include/Editor/EditorWorld.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/World/Include/Editor/IEditorWorld.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/World/Include/Editor/IEditorWorld.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/World/Source/EditorWorld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/World/Source/EditorWorld.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Editor/Runtime/World/Source/Plugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Editor/Runtime/World/Source/Plugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/COM/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/COM/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Core/Containers/Include/Core/StringView.h" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Core/Containers/Include/Core/StringView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Core/Debug/Include/Core/ExceptionFormatter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Core/Debug/Include/Core/ExceptionFormatter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/Machine/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/Machine/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/RegExpr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/RegExpr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Core/Regex/Source/RegExpr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Core/Regex/Source/RegExpr.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Libraries/Host/Source/Registry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Host/Source/Registry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Base/FileSystem/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Base/FileSystem/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFileManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFileManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFileManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFileManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Data/Material/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Data/Material/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Data/Mesh/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Data/Mesh/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Data/Texture/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Data/Texture/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Data/UIML/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Data/UIML/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GHA/Vulkan/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/Data/diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/Data/screenblit.dsf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/Data/ui.dsf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/Data/uifont.dsf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/Data/uiimg.dsf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/main2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/GHA/VulkanShader/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/GHA/VulkanShader/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Include/Game/Actors/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Include/Game/Actors/Camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Include/Game/ICamera.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Include/Game/ICamera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/Camera.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/DirectionalLight.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/DirectionalLight.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/StaticMesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/StaticMesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Plugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/Plugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/SceneCameraPacketBatcher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/SceneCameraPacketBatcher.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/Scene/Source/SceneWorldPackage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/Scene/Source/SceneWorldPackage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IScene.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IScene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorld.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorld.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorldPackage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorldPackage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/Scene.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/SpatialScene.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/World.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Include/Game/World.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Source/Scene.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Source/SpatialScene.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Game/World/Source/World.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Game/World/Source/World.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Graphics/Camera/Include/Graphics/CameraWorldPackage.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Graphics/Camera/Include/Graphics/CameraWorldPackage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Graphics/Scene/Source/Plugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Graphics/Scene/Source/Plugin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Serialization/Tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Serialization/Tests/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Controls/Source/Elements/UIOutputDisplay.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Controls/Source/Elements/UIOutputDisplay.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/ElementComponents/IUITransformComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/ElementComponents/IUITransformComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/Elements/IUICanvas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUICanvas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/Elements/UICanvas.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/UICanvas.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUIElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUIElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/Elements/IUICanvas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/IUICanvas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/Elements/TransformDebug.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/Elements/TransformDebug.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/Elements/UICanvas.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/UICanvas.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/IUIElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/IUIElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/UIInputSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/UIInputSystem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Core/Source/UIWorldPackage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Core/Source/UIWorldPackage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/Desktop/Source/Elements/UIWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/Desktop/Source/Elements/UIWindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/ControlStyle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IControl.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IControl.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IUIMLHost.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IUIMLHost.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/UIMLHost.h" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/UIMLHost.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Source/ControlStyle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Source/IControl.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/UIML/Source/IControl.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/UI/UIML/Source/UIMLHost.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/UI/UIML/Source/UIMLHost.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug64/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release64/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug64" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUICanvas.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="e#52#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/UICanvas.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="e#39#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/UICanvas.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="132" column="9" lean-forward="true" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUIElement.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1404">
+              <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+              <folding>
+                <element signature="e#2106#2118#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/IUICanvas.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#39#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/IUIElement.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/Style.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1030">
+              <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/IControl.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorld.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="e#1374#1386#0" expanded="true" />
+                <element signature="e#1797#1809#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Djinn_Project_ConfigureAll</find>
+      <find>FileStream</find>
+      <find>StoreAssetStream</find>
+      <find>IStream</find>
+      <find>findchild</find>
+      <find>config</find>
+      <find>EnumerateWorlds</find>
+      <find>createsce</find>
+      <find>CameraWorldPackage</find>
+      <find>eExit</find>
+      <find>close</find>
+      <find>FindChild</find>
+      <find>ebefore</find>
+      <find>IUITransformComponent</find>
+      <find>scene</find>
+      <find>Could not find style class</find>
+      <find>MarkAsUnstyled</find>
+      <find>needsStyling</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUICanvas.h" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/UIMLHost.cpp" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Plugins/Data/Mesh/Tests/main.cpp" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../../Build/Project/ProjectConfigure.cmake" />
+        <option value="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/Machine/State.h" />
+        <option value="$PROJECT_DIR$/Libraries/COM/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Libraries/Core/Regex/Include/Core/RegExpr.h" />
+        <option value="$PROJECT_DIR$/Libraries/Core/Regex/Source/RegExpr.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFile.h" />
+        <option value="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFile.cpp" />
+        <option value="$PROJECT_DIR$/Libraries/Core/Debug/Include/Core/ExceptionFormatter.h" />
+        <option value="$PROJECT_DIR$/Plugins/Configuration/Include/Configuration/ConfigFileManager.h" />
+        <option value="$PROJECT_DIR$/Plugins/Configuration/Source/ConfigFileManager.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Serialization/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Base/FileSystem/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Data/UIML/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Material/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/GHA/VulkanShader/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Asset/Include/Data/IAssetHost.h" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Asset/Include/Data/AssetHost.h" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Asset/Source/AssetHost.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Mesh/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/GHA/Vulkan/Tests/main2.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/GHA/Vulkan/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Libraries/Core/Containers/Include/Core/StringView.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUIElement.h" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Texture/Tests/main.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Source/Scene.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Graphics/Camera/Include/Graphics/CameraWorldPackage.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISceneState.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Source/IUIElement.cpp" />
+        <option value="$PROJECT_DIR$/../../Build/Packages/PackageResolve.cmake" />
+        <option value="$PROJECT_DIR$/Plugins/Base/Application/Source/Application.cpp" />
+        <option value="$PROJECT_DIR$/Libraries/Host/Source/Registry.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Data/Texture/Include/Data/TextureConfiguration.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IUIMLHost.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/UIMLHost.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/UIML/Source/ControlStyle.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/UI/UIML/Source/UIMLHost.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/UI/UIML/Source/IControl.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/Scene.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Source/SpatialScene.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/SpatialScene.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/World.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Source/World.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IScene.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISpatialScene.h" />
+        <option value="$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorld.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Source/UIWorldPackage.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUICanvas.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Include/UI/UICanvas.h" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Source/UICanvas.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Source/IUICanvas.cpp" />
+        <option value="$PROJECT_DIR$/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="GHA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="GHA" type="462c0819:PsiDirectoryNode" />
+              <item name="Vulkan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="ElementComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="UIML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="UIML" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="UIML" type="462c0819:PsiDirectoryNode" />
+              <item name="Include" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Engine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="Plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="UIML" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dev\CLionProjects\DjinnEngine\Source\Engine\Plugins\UI\Core\Source" />
+      <recent name="C:\Users\Dev\CLionProjects\DjinnEngine\Source\Engine\Plugins\UI\Core\Include\UI" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.All">
+    <configuration name="All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="All" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.COM.Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.COM.Test" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.COM.Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Compiler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Compiler" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Containers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Containers" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Containers.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Containers.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.Core.Containers.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Debug" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Debug" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Event" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Event" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Idioms" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Idioms" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Memory" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Memory.Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Memory.Test" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.Core.Memory.Test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Reflection.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Reflection.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.Core.Reflection.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Regex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Regex" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Stream" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Stream" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Core.Time" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Core.Time" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.GHA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.GHA" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Host" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Host" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.IO" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.IO" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.Library" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.Library" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.Threading" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.Threading" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.User" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.User" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.Window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.Window" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Platform.Window.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Platform.Window.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.Platform.Window.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Reflection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Reflection" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.Reflection.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.Reflection.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.Reflection.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.VectorMath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.VectorMath" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Libraries.VectorMath.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Libraries.VectorMath.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Libraries.VectorMath.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Async" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Async" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.Application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.Application" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.FileSystem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.FileSystem" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.FileSystem.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.FileSystem.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Base.FileSystem.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.Logging" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.Logging" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.Logging.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.Logging.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Base.Logging.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.Memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.Memory" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Base.Window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Base.Window" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Configuration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Configuration" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Asset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Asset" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Font" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Font" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Material" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Material" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Material.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Material.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Data.Material.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Mesh.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Mesh.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Data.Mesh.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Shader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Shader" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Shader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Shader.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Data.Shader.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Texture" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Texture" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.Texture.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.Texture.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Data.Texture.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.UIML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.UIML" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.UIML.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.UIML.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Data.UIML.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Data.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Data.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.GHA.PipelineScheduler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.GHA.PipelineScheduler" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.GHA.Vulkan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.GHA.Vulkan" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.GHA.VulkanShader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.GHA.VulkanShader" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.GHA.VulkanShader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.GHA.VulkanShader.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.GHA.VulkanShader.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Game.Component" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Game.Component" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Game.Input" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Game.Input" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Game.Scene" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Game.Scene" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Game.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Game.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Game.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Game.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Camera" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Common" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Common" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.DeferredLighting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.DeferredLighting" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Graph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Graph" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Lighting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Lighting" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Output" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Output" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.PostProcessing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.PostProcessing" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.Scene" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.Scene" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.UI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.UI" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Graphics.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Graphics.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Reflection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Reflection" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Serialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Serialization" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.Serialization.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.Serialization.Tests" CONFIG_NAME="Debug64" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="Plugins.Serialization.Tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.UI.Controls" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.UI.Controls" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.UI.Core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.UI.Core" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.UI.Desktop" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.UI.Desktop" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.UI.Diagnostic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.UI.Diagnostic" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Plugins.UI.UIML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Plugins.UI.UIML" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Async" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Async" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.Application" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.Application" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.FileSystem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.FileSystem" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.FileSystem.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.FileSystem.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.Logging" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.Logging" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.Logging.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.Logging.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.Memory" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.Memory" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Base.Window" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Base.Window" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Configuration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Configuration" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Asset" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Asset" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Font" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Font" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Material" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Material" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Material.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Material.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Mesh" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Mesh" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Mesh.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Mesh.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Shader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Shader" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Shader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Shader.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Texture" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Texture" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.Texture.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.Texture.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.UIML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.UIML" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.UIML.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.UIML.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Data.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Data.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.GHA.PipelineScheduler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.GHA.PipelineScheduler" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.GHA.Vulkan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.GHA.Vulkan" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.GHA.VulkanShader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.GHA.VulkanShader" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.GHA.VulkanShader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.GHA.VulkanShader.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Game.Component" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Game.Component" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Game.Input" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Game.Input" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Game.Scene" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Game.Scene" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Game.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Game.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Game.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Game.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Camera" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Camera" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Common" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Common" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.DeferredLighting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.DeferredLighting" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Graph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Graph" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Lighting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Lighting" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Output" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Output" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.PostProcessing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.PostProcessing" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.Scene" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.Scene" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.System" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.System" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.UI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.UI" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Graphics.World" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Graphics.World" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Reflection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Reflection" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Serialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Serialization" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.Serialization.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.Serialization.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.UI.Controls" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.UI.Controls" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.UI.Core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.UI.Core" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.UI.Desktop" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.UI.Desktop" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.UI.Diagnostic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.UI.Diagnostic" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_DHG.Plugins.UI.UIML" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_DHG.Plugins.UI.UIML" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.COM.Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.COM.Test" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.Core.Containers.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.Core.Containers.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.Core.Memory.Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.Core.Memory.Test" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.Core.Reflection.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.Core.Reflection.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.Platform.Window.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.Platform.Window.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.Reflection.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.Reflection.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Libraries.VectorMath.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Libraries.VectorMath.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Base.FileSystem.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Base.FileSystem.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Base.Logging.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Base.Logging.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Data.Material.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Data.Material.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Data.Mesh.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Data.Mesh.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Data.Shader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Data.Shader.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Data.Texture.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Data.Texture.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Data.UIML.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Data.UIML.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.GHA.VulkanShader.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.GHA.VulkanShader.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Z_Mirror.Plugins.Serialization.Tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="Z_Mirror.Plugins.Serialization.Tests" CONFIG_NAME="Debug64">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.All" />
+      <item itemvalue="Application.Libraries.COM.Test" />
+      <item itemvalue="Application.Libraries.Core.Compiler" />
+      <item itemvalue="Application.Libraries.Core.Containers" />
+      <item itemvalue="Application.Libraries.Core.Containers.Tests" />
+      <item itemvalue="Application.Libraries.Core.Debug" />
+      <item itemvalue="Application.Libraries.Core.Event" />
+      <item itemvalue="Application.Libraries.Core.Idioms" />
+      <item itemvalue="Application.Libraries.Core.Memory" />
+      <item itemvalue="Application.Libraries.Core.Memory.Test" />
+      <item itemvalue="Application.Libraries.Core.Reflection.Tests" />
+      <item itemvalue="Application.Libraries.Core.Regex" />
+      <item itemvalue="Application.Libraries.Core.Stream" />
+      <item itemvalue="Application.Libraries.Core.Time" />
+      <item itemvalue="Application.Libraries.GHA" />
+      <item itemvalue="Application.Libraries.Host" />
+      <item itemvalue="Application.Libraries.Platform.IO" />
+      <item itemvalue="Application.Libraries.Platform.Library" />
+      <item itemvalue="Application.Libraries.Platform.Threading" />
+      <item itemvalue="Application.Libraries.Platform.User" />
+      <item itemvalue="Application.Libraries.Platform.Window" />
+      <item itemvalue="Application.Libraries.Platform.Window.Tests" />
+      <item itemvalue="Application.Libraries.Reflection" />
+      <item itemvalue="Application.Libraries.Reflection.Tests" />
+      <item itemvalue="Application.Libraries.VectorMath" />
+      <item itemvalue="Application.Libraries.VectorMath.Tests" />
+      <item itemvalue="Application.Plugins.Async" />
+      <item itemvalue="Application.Plugins.Base.Application" />
+      <item itemvalue="Application.Plugins.Base.FileSystem" />
+      <item itemvalue="Application.Plugins.Base.FileSystem.Tests" />
+      <item itemvalue="Application.Plugins.Base.Logging" />
+      <item itemvalue="Application.Plugins.Base.Logging.Tests" />
+      <item itemvalue="Application.Plugins.Base.Memory" />
+      <item itemvalue="Application.Plugins.Base.System" />
+      <item itemvalue="Application.Plugins.Base.Window" />
+      <item itemvalue="Application.Plugins.Configuration" />
+      <item itemvalue="Application.Plugins.Data.Asset" />
+      <item itemvalue="Application.Plugins.Data.Font" />
+      <item itemvalue="Application.Plugins.Data.Material" />
+      <item itemvalue="Application.Plugins.Data.Material.Tests" />
+      <item itemvalue="Application.Plugins.Data.Mesh" />
+      <item itemvalue="Application.Plugins.Data.Mesh.Tests" />
+      <item itemvalue="Application.Plugins.Data.Shader" />
+      <item itemvalue="Application.Plugins.Data.Shader.Tests" />
+      <item itemvalue="Application.Plugins.Data.Texture" />
+      <item itemvalue="Application.Plugins.Data.Texture.Tests" />
+      <item itemvalue="Application.Plugins.Data.UIML" />
+      <item itemvalue="Application.Plugins.Data.UIML.Tests" />
+      <item itemvalue="Application.Plugins.Data.World" />
+      <item itemvalue="Application.Plugins.GHA.PipelineScheduler" />
+      <item itemvalue="Application.Plugins.GHA.VulkanShader" />
+      <item itemvalue="Application.Plugins.GHA.VulkanShader.Tests" />
+      <item itemvalue="Application.Plugins.GHA.Vulkan" />
+      <item itemvalue="Application.Plugins.Game.Component" />
+      <item itemvalue="Application.Plugins.Game.Input" />
+      <item itemvalue="Application.Plugins.Game.Scene" />
+      <item itemvalue="Application.Plugins.Game.System" />
+      <item itemvalue="Application.Plugins.Game.World" />
+      <item itemvalue="Application.Plugins.Graphics.Camera" />
+      <item itemvalue="Application.Plugins.Graphics.Common" />
+      <item itemvalue="Application.Plugins.Graphics.DeferredLighting" />
+      <item itemvalue="Application.Plugins.Graphics.Graph" />
+      <item itemvalue="Application.Plugins.Graphics.Lighting" />
+      <item itemvalue="Application.Plugins.Graphics.Output" />
+      <item itemvalue="Application.Plugins.Graphics.PostProcessing" />
+      <item itemvalue="Application.Plugins.Graphics.Scene" />
+      <item itemvalue="Application.Plugins.Graphics.System" />
+      <item itemvalue="Application.Plugins.Graphics.UI" />
+      <item itemvalue="Application.Plugins.Graphics.World" />
+      <item itemvalue="Application.Plugins.Reflection" />
+      <item itemvalue="Application.Plugins.Serialization" />
+      <item itemvalue="Application.Plugins.Serialization.Tests" />
+      <item itemvalue="Application.Plugins.UI.Controls" />
+      <item itemvalue="Application.Plugins.UI.Core" />
+      <item itemvalue="Application.Plugins.UI.Desktop" />
+      <item itemvalue="Application.Plugins.UI.Diagnostic" />
+      <item itemvalue="Application.Plugins.UI.UIML" />
+      <item itemvalue="Application.Z_DHG.Plugins.Async" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.Application" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.FileSystem" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.FileSystem.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.Logging" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.Logging.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.Memory" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.System" />
+      <item itemvalue="Application.Z_DHG.Plugins.Base.Window" />
+      <item itemvalue="Application.Z_DHG.Plugins.Configuration" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Asset" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Font" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Material" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Material.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Mesh" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Mesh.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Shader" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Shader.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Texture" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.Texture.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.UIML" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.UIML.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.Data.World" />
+      <item itemvalue="Application.Z_DHG.Plugins.GHA.PipelineScheduler" />
+      <item itemvalue="Application.Z_DHG.Plugins.GHA.VulkanShader" />
+      <item itemvalue="Application.Z_DHG.Plugins.GHA.VulkanShader.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.GHA.Vulkan" />
+      <item itemvalue="Application.Z_DHG.Plugins.Game.Component" />
+      <item itemvalue="Application.Z_DHG.Plugins.Game.Input" />
+      <item itemvalue="Application.Z_DHG.Plugins.Game.Scene" />
+      <item itemvalue="Application.Z_DHG.Plugins.Game.System" />
+      <item itemvalue="Application.Z_DHG.Plugins.Game.World" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Camera" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Common" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.DeferredLighting" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Graph" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Lighting" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Output" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.PostProcessing" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.Scene" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.System" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.UI" />
+      <item itemvalue="Application.Z_DHG.Plugins.Graphics.World" />
+      <item itemvalue="Application.Z_DHG.Plugins.Reflection" />
+      <item itemvalue="Application.Z_DHG.Plugins.Serialization" />
+      <item itemvalue="Application.Z_DHG.Plugins.Serialization.Tests" />
+      <item itemvalue="Application.Z_DHG.Plugins.UI.Controls" />
+      <item itemvalue="Application.Z_DHG.Plugins.UI.Core" />
+      <item itemvalue="Application.Z_DHG.Plugins.UI.Desktop" />
+      <item itemvalue="Application.Z_DHG.Plugins.UI.Diagnostic" />
+      <item itemvalue="Application.Z_DHG.Plugins.UI.UIML" />
+      <item itemvalue="Application.Z_Mirror.Libraries.COM.Test" />
+      <item itemvalue="Application.Z_Mirror.Libraries.Core.Containers.Tests" />
+      <item itemvalue="Application.Z_Mirror.Libraries.Core.Memory.Test" />
+      <item itemvalue="Application.Z_Mirror.Libraries.Core.Reflection.Tests" />
+      <item itemvalue="Application.Z_Mirror.Libraries.Platform.Window.Tests" />
+      <item itemvalue="Application.Z_Mirror.Libraries.Reflection.Tests" />
+      <item itemvalue="Application.Z_Mirror.Libraries.VectorMath.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Base.FileSystem.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Base.Logging.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Data.Material.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Data.Mesh.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Data.Shader.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Data.Texture.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Data.UIML.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.GHA.VulkanShader.Tests" />
+      <item itemvalue="Application.Z_Mirror.Plugins.Serialization.Tests" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f29243a6-9d4c-460b-ba52-d17b62249748" name="Default Changelist" comment="" />
+      <created>1547985031723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547985031723</updated>
+      <workItem from="1547985032960" duration="3100000" />
+      <workItem from="1547988435373" duration="14256000" />
+      <workItem from="1548092141173" duration="7656000" />
+      <workItem from="1548176018193" duration="10519000" />
+      <workItem from="1548525651775" duration="1268000" />
+      <workItem from="1548527138754" duration="8281000" />
+      <workItem from="1548585427682" duration="13450000" />
+      <workItem from="1548696303560" duration="7000" />
+      <workItem from="1548699666355" duration="2242000" />
+    </task>
+    <task id="LOCAL-00001" summary="Package path fix, Build-system fixes, Build all support">
+      <created>1548010295758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548010295758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60779000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Package path fix, Build-system fixes, Build all support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Package path fix, Build-system fixes, Build all support" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Plugins/Data/Mesh/Tests/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="e#40#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/WorldHostSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Source/WorldHostSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="17" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorldHost.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Graphics/Camera/Include/Graphics/CameraWorldPackage.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Graphics/Camera/Source/CameraWorldPackage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Host/Include/Host/Plugin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Build/Packages/PackageResolve.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="143" column="33" selection-start-line="143" selection-start-column="33" selection-end-line="143" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Core/Containers/Include/Core/Array.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="231" column="30" selection-start-line="231" selection-start-column="30" selection-end-line="231" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Platform/Window/SourceWindows/Window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="350" column="48" lean-forward="true" selection-start-line="350" selection-start-column="48" selection-end-line="350" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Base/Application/Source/Application.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#858#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/GHA/Vulkan/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/Component/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Graphics/Camera/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISceneState.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Data/Asset/Include/Data/IAssetConfiguration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Data/Texture/Include/Data/TextureConfiguration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Platform/IO/Include/Platform/FileStream.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/Plugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Core/Reflection/Include/Core/Visitor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/ControlStyle.h" />
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/ControlStyle.cpp" />
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IUIMLHost.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#51#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/UIMLHost.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/UIMLHost.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Host/Source/Registry.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="241" column="53" selection-start-line="241" selection-start-column="53" selection-end-line="241" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Include/UI/IControl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/Component/Include/Game/IActorSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISceneProxy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/Scene/Source/Actors/StaticMesh.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/SpatialScene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#52#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Source/SpatialScene.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/IScene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#52#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/COM/Include/COM/IUnknown.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="318" column="88" lean-forward="true" selection-start-line="318" selection-start-column="88" selection-end-line="327" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/UIWorldPackage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#38#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Libraries/Host/Include/Host/IRegistry.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="24" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/ISpatialScene.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Source/World.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/World.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/IWorld.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#1374#1386#0" expanded="true" />
+            <element signature="e#1797#1809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/Game/World/Include/Game/SceneBuilder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/UICanvas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="e#39#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUICanvas.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#52#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/UICanvas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="132" column="9" lean-forward="true" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Include/UI/IUIElement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="169" column="13" selection-start-line="169" selection-start-column="13" selection-end-line="169" selection-end-column="13" />
+          <folding>
+            <element signature="e#2106#2118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/Style.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1030">
+          <caret line="91" column="18" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/IUIElement.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="69" column="46" lean-forward="true" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/IUICanvas.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#39#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/UIML/Source/IControl.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugins/UI/Core/Source/ElementComponents/IUITransformComponent.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

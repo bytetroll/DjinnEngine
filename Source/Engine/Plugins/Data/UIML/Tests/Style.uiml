@@ -1,0 +1,12 @@
+<group name="Desktop.Style">
+    <style>
+        menubar {
+            horizontal-scaling: fill;
+            vertical-scaling: content;
+        }
+
+        menuitem {
+
+        }
+    </style>
+</group>

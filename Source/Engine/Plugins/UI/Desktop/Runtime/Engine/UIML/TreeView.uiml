@@ -1,0 +1,15 @@
+<style>
+    .treeview-fill {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+</style>
+
+<stack mode="vertical" class="treeview-fill">
+    <div class="treeview-fill">
+        <image class="treeview-fill"/>
+        <stack mode="vertical" name="items">
+            /* Tree Items */
+        </stack>
+    </div>
+</stack>

@@ -1,0 +1,12 @@
+<group name="Editor.Menu.File">
+    <menuitem>"Open"</menuitem>
+</group>
+
+<menubar>
+    <menuitem>
+        <header>"File"</header>
+        <options>
+            <group name="Editor.Menu.File"/>
+        </options>
+    </menuitem>
+</menubar>

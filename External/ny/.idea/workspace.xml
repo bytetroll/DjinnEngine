@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="827315f9-9e9c-4e20-bbb6-c52f5d336f07" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ny" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ny" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ny" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ny" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="NyLang" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ExternalSource/ny" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="827315f9-9e9c-4e20-bbb6-c52f5d336f07" name="Default" comment="" />
+      <created>1512000452977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512000452977</updated>
+      <workItem from="1512000454824" duration="42000" />
+      <workItem from="1512055633024" duration="48000" />
+      <workItem from="1516996572571" duration="21000" />
+      <workItem from="1517806367220" duration="21000" />
+      <workItem from="1517968826473" duration="5000" />
+      <workItem from="1518468410253" duration="14000" />
+      <workItem from="1518470010379" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="156000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25500527" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49367756" weight="0.32936078" />
+      <window_info anchor="bottom" id="YouTrack" order="12" />
+      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.32876712" visible="true" weight="0.2152174" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5273973" side_tool="true" weight="0.24918744" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.34826133" weight="0.33802816" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4873551" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.47260273" weight="0.24841438" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4873551" weight="0.22426869" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.3930453" weight="0.32936078" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

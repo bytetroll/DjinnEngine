@@ -1,0 +1,105 @@
+__include("Core.dsf");
+
+// Buckets
+scope Buckets {
+    static int default = 0;
+}
+
+// Resources
+scope Resources {
+    @Resource(Buckets.default) extern Types.Texture2D:float4 source;
+}
+
+// Data
+scope Data {
+    struct Data {
+        float4 screenSize;
+    }
+
+    @Packed(Buckets.default) extern Data data;
+}
+
+struct Vertex  {
+    @Semantic("vertexid") int vid;
+}
+
+// Vertex Interop
+struct VertexInterop {
+    this();
+    @Semantic("position") float4 position;
+    float2 texcoord;
+}
+
+// Vertex kernel
+@Kernel("vertex")
+VertexInterop vertexKernel(forward Vertex vertex) {
+    auto interop = VertexInterop();
+    interop.texcoord = float2((vertex.vid << 1) & 2, 1 - (vertex.vid & 2));
+    interop.position = float4(float2(interop.texcoord.x(), 1.0f - interop.texcoord.y()) * float2(2, -2) + float2(-1, 1), 0, 1);
+    return interop;
+}
+
+// Pixel kernel
+@Kernel("pixel")
+float4 pixelKernel(VertexInterop interop) {
+    float spanMax = 8.0f;
+    float reduceMul = 1.0f / 8.0f;
+    float reduceMin = 1.0f / 128.0f;
+
+    float2 screenDim = Data.data.screenSize.xy();
+
+    float3 rgbNW = Resources.source.Sample(interop.texcoord + (float2(-1, -1) / screenDim)).xyz();
+    float3 rgbNE = Resources.source.Sample(interop.texcoord + (float2(1, -1) / screenDim)).xyz();
+    float3 rgbSW = Resources.source.Sample(interop.texcoord + (float2(-1, 1) / screenDim)).xyz();
+    float3 rgbSE = Resources.source.Sample(interop.texcoord + (float2(1, 1) / screenDim)).xyz();
+    float3 rgbM = Resources.source.Sample(interop.texcoord).xyz();
+
+    float3 luma = float3(0.299f, 0.587f, 0.114f);
+
+    float lumaNW = Math.Dot(rgbNW, luma);
+    float lumaNE = Math.Dot(rgbNE, luma);
+    float lumaSW = Math.Dot(rgbSW, luma);
+    float lumaSE = Math.Dot(rgbSE, luma);
+    float lumaM  = Math.Dot(rgbM,  luma);
+
+    float lumaMin = Math.Min(lumaM, Math.Min(Math.Min(lumaNW, lumaNE), Math.Min(lumaSW, lumaSE)));
+    float lumaMax = Math.Max(lumaM, Math.Max(Math.Max(lumaNW, lumaNE), Math.Max(lumaSW, lumaSE)));
+
+    float2 dir = float2(
+        -((lumaNW + lumaNE) - (lumaSW + lumaSE)),
+        ((lumaNW + lumaSW) - (lumaNE + lumaSE))
+    );
+
+    float dirReduce = Math.Max(
+        (lumaNW + lumaNE + lumaSW + lumaSE) * (0.25f * reduceMul),
+        reduceMin
+    );
+
+    float rcpDirMin = 1.0f / ( Math.Min(Math.Abs(dir.x()), Math.Abs(dir.y())) + dirReduce);
+
+    dir = Math.Min(
+        float2(spanMax, spanMax),
+        Math.Max(
+            float2(-spanMax, -spanMax),
+            dir * float2(rcpDirMin, rcpDirMin)
+        )
+    ) / screenDim;
+
+    float3 rgba = float3(0.5f, 0.5f, 0.5f) * (
+        Resources.source.Sample(interop.texcoord + (dir * float2((1.0f / 3.0f) - 0.5f, (1.0f / 3.0f) - 0.5f))).xyz() +
+        Resources.source.Sample(interop.texcoord + (dir * float2((2.0f / 3.0f) - 0.5f, (2.0f / 3.0f) - 0.5f))).xyz()
+    );
+
+    float3 rgbb = (rgba * float3(0.5f, 0.5f, 0.5f)) + (float3(0.25f, 0.25f, 0.25f) * (
+        Resources.source.Sample(interop.texcoord + (dir * float2(-0.5f, -0.5f))).xyz() +
+        Resources.source.Sample(interop.texcoord + (dir * float2(0.5f, 0.5f))).xyz()
+    ));
+
+    float lumab = Math.Dot(rgbb, luma);
+
+    if ((lumab < lumaMin) || (lumab > lumaMax)) {
+        return float4(rgba, 1);
+    } else {
+        return float4(rgbb, 1);
+    }
+}

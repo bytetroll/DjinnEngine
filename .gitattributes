@@ -1,0 +1,38 @@
+# Default text config
+* text=auto eol=lf
+
+# CXX Configuration
+*.c text
+*.cpp text
+*.hpp text
+*.h text
+
+# Misc Configuration
+*.md text
+*.txt text
+*.cmake text
+
+# Binary Configuration
+*.so binary
+*.so.* binary
+*.a binary
+*.asset binary
+*.daf binary
+*.a binary
+*.lib binary
+*.dll binary
+*.dll.a binary
+*.otf binary
+*.psd binary
+*.gif binary
+*.tif binary
+*.fbx binary
+*.3ds binary
+*.psd binary
+*.png binary
+*.mp3 binary
+*.wav binary
+*.xcf binary
+*.jpg binary
+*.jpeg binary
+*.obj binary

@@ -1,0 +1,60 @@
+<style>
+    .editor-layout {
+        horizontal-scaling: fill;
+        vertical-scaling: fill;
+    }
+
+    .editor-layout-lhs {
+        desired-size: 300 0;
+    }
+
+    .editor-layout-rhs {
+        desired-size: 300 0;
+    }
+
+    .editor-layout-content {
+        desired-size: 0 300;
+    }
+
+    .editor-layout-viewport {
+
+    }
+
+    .editor-layout-templates {
+        desired-size: 0 200;
+    }
+
+    .editor-layout-hierarchy {
+        desired-size: 0 200;
+    }
+</style>
+
+<docking mode="vertical" class="editor-layout">
+    <docking scale="true">
+        <docking merged="true" mode="vertical" class="editor-layout-lhs">
+            <window title="Templates" class="editor-layout-templates">
+                <editor-templates/>
+            </window>
+            <window title="Terrain" scale="true">
+            </window>
+        </docking>
+
+        <window scale="true" title="Viewport" class="editor-layout-viewport">
+            <editor-viewport/>
+        </window>
+
+        <docking mode="vertical" class="editor-layout-rhs" name="bass">
+            <window title="Hierarchy" class="editor-layout-hierarchy">
+                <editor-hierarchy/>
+            </window>
+            <window title="Properties" scale="true">
+                <editor-properties/>
+            </window>
+        </docking>
+    </docking>
+
+    <window title="Content" class="editor-layout-content">
+        <editor-content-browser/>
+    </window>
+</docking>
+
